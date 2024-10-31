@@ -16,5 +16,5 @@ huggingface-cli download meta-llama/Llama-3.2-1B --include "original/*" --local-
 ```
 However if wanting to use Google Colab, please insert your HuggingFace token in
 ```python
-login(token='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')
+login(token='your_token-here')
 ```
