@@ -13,10 +13,12 @@ class DishGenerator:
             
         self.model = AutoModelForCausalLM.from_pretrained(model_id)
 
-    def generate_dish_description(self, ingredients, max_length=200):
+    def generate_dish_description(self, ingredients, origin, max_length=200):
         ingredients_string = ", ".join(ingredients) 
         #prompt = "Tell me an existing dish and only the dish that includes these ingredients: " + ingredients_string
-        prompt = "I have these ingredients: "+ ingredients_string +". A possible dish of these ingredients could be:"
+        
+        prompt = "When having these ingredients: "+ ingredients_string +". A possible existing dish that we can make from "+ origin +" could be:"
+        
         # Tokenize the input prompt and specify padding options
         inputs = self.tokenizer(prompt, return_tensors="pt", padding=True)
         
@@ -33,6 +35,7 @@ class DishGenerator:
 #On Windows the model is safed in C:\Users\<YourUsername>\.cache\huggingface\transformers\
 
 #dish_gen = DishGenerator()
-#ingredients = ["banana", "milk"]
-#dish_description = dish_gen.generate_dish_description(ingredients)
+#ingredients = ["Tomato Sauce","Cheese","Dough"]
+#origin = "Italy"
+#dish_description = dish_gen.generate_dish_description(ingredients, origin)
 #print(dish_description)
