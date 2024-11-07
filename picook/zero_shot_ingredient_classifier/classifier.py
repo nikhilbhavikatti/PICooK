@@ -6,6 +6,7 @@ import os
 import re
 from tqdm import tqdm
 import shutil
+
 class ImageValidator():
 
     def __init__(self, batch_size=64, top_k=3):
@@ -78,4 +79,4 @@ class ImageValidator():
                         wrong_total += 1
             
         print(f"Wrong images: {wrong_total}/{total}")
-        #print(wrong_files)
+        return wrong_files
