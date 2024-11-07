@@ -17,6 +17,10 @@ parser.add_argument('--validate',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Validate images for ingredients and dishes by using classifier.')
+parser.add_argument('--move_wrong_images',
+                    action=argparse.BooleanOptionalAction,
+                    default=False,
+                    help='Whether wrong imges should be moved to the wrong folder or not.')
 parser.add_argument('--top_k',
                     type=int,
                     required=False,
@@ -48,7 +52,7 @@ if __name__ == '__main__':
     if args.validate:
         print(f"Validating images for ingredients with top_k={args.top_k}")
         validator = ImageValidator(top_k=args.top_k)
-        validator.validate_images("data/ingredients", "data/ingredients/wrong_images")
+        validator.validate_images("data/ingredients", "data/ingredients/wrong_images", move_wrong_images=args.move_wrong_images)
 
     if args.dishes:
         pass

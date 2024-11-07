@@ -22,8 +22,13 @@ class ImageValidator():
         labels = []
         file_names = []
         for file in os.listdir(folder_path):
+            path = os.path.join(folder_path, file)
+            if os.path.isdir(path):
+                # skip directories
+                continue
+
             try:
-                image = Image.open(os.path.join(folder_path, file))
+                image = Image.open(path)
                 label = re.findall(r"(.*)_[0-9]+", file)[0]
                 labels.append(label)
                 images.append(image)
@@ -32,9 +37,9 @@ class ImageValidator():
                 print(f"Could not open image {file}")
         return images, labels, file_names
     
-    def validate_images(self, path, wrong_path):
+    def validate_images(self, path, wrong_path, move_wrong_images=False):
         # create the wrong dir if it does not exist
-        if not os.path.exists(wrong_path):
+        if move_wrong_images and not os.path.exists(wrong_path):
             os.mkdir(wrong_path)
 
         images, labels, file_names = self.__get_images(path)
@@ -51,7 +56,7 @@ class ImageValidator():
 
             unique_labels = list(set(labels_batch))
             # add some wrong labels to find wrong images
-            unique_labels += ["animal", "person", "nothing to eat", "electronic device"]
+            unique_labels += ["animal", "person", "house", "car", "landscape", "electronic device", "nothing to eat", "cartoon", "drawing"]
             text = [f"a photo of a {label}" for label in unique_labels]
 
             num_labels_batch = np.array([unique_labels.index(label) for label in labels_batch])
@@ -67,7 +72,8 @@ class ImageValidator():
                 for i in range(pred_classes.shape[0]):
                     if not np.isin(num_labels_batch[i], pred_classes[i]):
                         #print(f"Image {file_name} is not {label} but {unique_labels[pred]}")
-                        shutil.move(os.path.join(path, file_name_batch[i]), os.path.join(wrong_path, file_name_batch[i]))
+                        if move_wrong_images:
+                            shutil.move(os.path.join(path, file_name_batch[i]), os.path.join(wrong_path, file_name_batch[i]))
                         wrong_files.append(file_name_batch[i])
                         wrong_total += 1
             
