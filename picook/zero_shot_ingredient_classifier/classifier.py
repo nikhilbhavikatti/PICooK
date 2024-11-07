@@ -21,7 +21,7 @@ class ImageValidator():
                 images.append(Image.open(os.path.join(path, file)))
         return images
     
-    def validate_image(images, class_label, batch_size=32):
+    def validate_images(self, images, class_label, batch_size=32):
         url = "http://images.cocodataset.org/val2017/000000039769.jpg"
         image = [Image.open(requests.get(url, stream=True).raw)] * 32
 

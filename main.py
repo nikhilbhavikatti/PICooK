@@ -37,4 +37,5 @@ if __name__ == '__main__':
     
     if args.validate:
         validator = ImageValidator()
-        
+        validator.validate_images(None, None)
+
