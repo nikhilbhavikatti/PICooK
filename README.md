@@ -1,4 +1,4 @@
-# :cake: Foundation Modles Project PICooK
+# :cake: PICooK: Photo Ingredients to Cooked Dish (Foundation Models Project 2024)
 
 
 # Image Retrieval
