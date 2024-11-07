@@ -5,7 +5,7 @@ from transformers import CLIPProcessor, CLIPModel
 import os
 import re
 from tqdm import tqdm
-
+import shutil
 class ImageValidator():
 
     def __init__(self, batch_size=64, top_k=3):
@@ -32,7 +32,11 @@ class ImageValidator():
                 print(f"Could not open image {file}")
         return images, labels, file_names
     
-    def validate_images(self, path):
+    def validate_images(self, path, wrong_path):
+        # create the wrong dir if it does not exist
+        if not os.path.exists(wrong_path):
+            os.mkdir(wrong_path)
+
         images, labels, file_names = self.__get_images(path)
 
         wrong_files = []
@@ -46,6 +50,7 @@ class ImageValidator():
             file_name_batch = file_names[i:i+self.batch_size]
 
             unique_labels = list(set(labels_batch))
+            # add some wrong labels to find wrong images
             unique_labels += ["animal", "person", "nothing to eat", "electronic device"]
             text = [f"a photo of a {label}" for label in unique_labels]
 
@@ -62,8 +67,9 @@ class ImageValidator():
                 for i in range(pred_classes.shape[0]):
                     if not np.isin(num_labels_batch[i], pred_classes[i]):
                         #print(f"Image {file_name} is not {label} but {unique_labels[pred]}")
+                        shutil.move(os.path.join(path, file_name_batch[i]), os.path.join(wrong_path, file_name_batch[i]))
                         wrong_files.append(file_name_batch[i])
                         wrong_total += 1
             
         print(f"Wrong images: {wrong_total}/{total}")
-        print(wrong_files)
+        #print(wrong_files)

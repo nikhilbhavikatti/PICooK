@@ -13,8 +13,9 @@ python main.py --scrape
 
 ## Image Validation using Classifier
 ```bash
-python main.py --validate
+python main.py --validate --top_k 3
 ```
+Top k allows to relax the validation by allowing the target class to be under the top k predicted classes.
 
 ## Dish Generation
 Generate token for LLaMa on HuggingFace, request permission for meta-llama/Llama-3.2-1B

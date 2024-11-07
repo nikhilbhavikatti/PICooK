@@ -17,6 +17,11 @@ parser.add_argument('--validate',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Validate images for ingredients and dishes by using classifier.')
+parser.add_argument('--top_k',
+                    type=int,
+                    required=False,
+                    default=3,
+                    help='Controls the sensitivity of the classifier by allowing the image class to be in the top k classes.')
 parser.add_argument('--dishes',
                     action=argparse.BooleanOptionalAction,
                     default=False,
@@ -41,8 +46,9 @@ if __name__ == '__main__':
                 time.sleep(1)
     
     if args.validate:
-        validator = ImageValidator()
-        validator.validate_images("data/ingredients")
+        print(f"Validating images for ingredients with top_k={args.top_k}")
+        validator = ImageValidator(top_k=args.top_k)
+        validator.validate_images("data/ingredients", "data/ingredients/wrong_images")
 
-    if args.generate_dishes:
+    if args.dishes:
         pass
