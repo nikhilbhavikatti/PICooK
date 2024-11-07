@@ -17,7 +17,12 @@ parser.add_argument('--validate',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Validate images for ingredients and dishes by using classifier.')
+parser.add_argument('--dishes',
+                    action=argparse.BooleanOptionalAction,
+                    default=False,
+                    help='Generates dishes by randomly sampling ingredients.')
 args = parser.parse_args()
+
 
 if __name__ == '__main__':
     if args.scrape:
@@ -37,5 +42,7 @@ if __name__ == '__main__':
     
     if args.validate:
         validator = ImageValidator()
-        validator.validate_images(None, None)
+        validator.validate_images("data/ingredients")
 
+    if args.generate_dishes:
+        pass
