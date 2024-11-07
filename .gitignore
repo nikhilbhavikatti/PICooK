@@ -10,6 +10,7 @@ bwhpc/slurm-*
 # diagrams
 *.png
 *.eps
+*.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

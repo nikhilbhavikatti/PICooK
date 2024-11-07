@@ -1,10 +1,16 @@
-# Foundation Modles Project PICooK
+# :cake: Foundation Modles Project PICooK
 
 
 # Image Retrieval
 ```bash
 export GOOGLE_API_KEY="<KEY>"
 export GOOGLE_SEARCH_ENGINE_ID="<ID>"
+python main.py --scrape
+```
+
+# Image Validation using Classifier
+```bash
+python main.py --validate
 ```
 
 # DISH GENERATION
