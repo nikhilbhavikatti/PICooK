@@ -31,4 +31,8 @@ login(token='your_token-here')
 
 # Conditional Latent Diffusion Model
 
+```bash
+bash finetune_model.sh
+```
+
 ![Diffusion model](imgs/conditional_diffusion_model.svg)
