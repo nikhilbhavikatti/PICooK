@@ -119,3 +119,8 @@ dishes = {
         "clam chowder", "tomato soup", "pumpkin soup", "lentil soup", "corn chowder"
     ]
 }
+
+
+origins = [ "Italian", "German", "Chinese", "Japanese", "Mexican", "Indian", "French", "Greek",
+            "Thai", "Spanish", "Korean", "Vietnamese", "Brazilian", "Turkish", "Ethiopian",
+            "Moroccan", "Lebanese", "Russian", "Peruvian", "Caribbean" ]

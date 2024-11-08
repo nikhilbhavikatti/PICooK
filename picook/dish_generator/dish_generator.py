@@ -2,8 +2,8 @@ import torch
 import gc
 import random
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from huggingface_hub import login
-login(token='your_token_here')
+#from huggingface_hub import login
+#login(token='your_token_here')
 
 #Careful: Downloads the specified model into .cache if used locally.
 class DishGenerator:

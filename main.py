@@ -1,10 +1,11 @@
 import time
 import argparse
+import random
 
-from picook.config.ingredients_dishes import ingredients, dishes
+from picook.config.ingredients_dishes import ingredients, dishes, origins
 from picook.image_retrieval.image_retrieval import get_images
 from picook.zero_shot_ingredient_classifier.classifier import ImageValidator
-
+from picook.dish_generator.dish_generator import DishGenerator
 
 parser = argparse.ArgumentParser(prog='PICooK',
                                  description='Helps you to find a delicious dish based on the ingredients you have at home.',
@@ -30,10 +31,25 @@ parser.add_argument('--dishes',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Generates dishes by randomly sampling ingredients.')
-args = parser.parse_args()
+parser.add_argument('--min_ingredients',
+                    type=int,
+                    required=False,
+                    default=4,
+                    help='Minimal number of ingredients to sample.')
+parser.add_argument('--max_ingredients',
+                    type=int,
+                    required=False,
+                    default=10,
+                    help='Maximal number of ingredients to sample.')
+parser.add_argument('--num_dishes',
+                    type=int,
+                    required=False,
+                    default=256,
+                    help='Number of dishes to generate.')
 
 
 if __name__ == '__main__':
+    args = parser.parse_args()
     if args.scrape:
         print("Retrieving images for ingredients")
         for list_of_ingredients in ingredients.values():
@@ -55,4 +71,12 @@ if __name__ == '__main__':
         validator.validate_images("data/ingredients", "data/ingredients/wrong_images", move_wrong_images=args.move_wrong_images)
 
     if args.dishes:
-        pass
+        generator = DishGenerator()
+        all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
+        for i in range(args.num_dishes):
+            num_ingredients = int(random.uniform(args.min_ingredients, args.max_ingredients))
+            ingredients = random.sample(all_ingredients, num_ingredients)
+            origin = random.sample(origins, 1)[0]
+            dish_description = generator.generate_dish_description(ingredients)
+            dish = generator.get_first_sentence(dish_description)
+            print(ingredients, dish)
