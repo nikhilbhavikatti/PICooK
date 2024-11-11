@@ -28,6 +28,10 @@ def get_images(ingredient):
 
     data = r.json()
 
+    if 'items' not in data:
+        print(f"No images found for {ingredient}: Skipping...")
+        return
+
     for i, item in enumerate(data["items"]):
         img_url = item["link"]
         print(img_url)
