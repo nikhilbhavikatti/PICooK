@@ -6,7 +6,7 @@ from picook.config.ingredients_dishes import ingredients, dishes, origins
 from picook.config.utils import DishIngredientMapping
 from picook.image_retrieval.image_retrieval import get_images
 from picook.zero_shot_ingredient_classifier.classifier import ImageValidator
-from picook.dish_generator.dish_generator_context import DishGenerator
+from picook.dish_generator.dish_generator_context import DishGenerator, InverseDishGenerator
 
 parser = argparse.ArgumentParser(prog='PICooK',
                                  description='Helps you to find a delicious dish based on the ingredients you have at home.',
@@ -51,6 +51,10 @@ parser.add_argument('--use_origin',
                     action=argparse.BooleanOptionalAction,
                     default=True,
                     help='Whether a dish from a specific origin should be generated.')
+parser.add_argument('--ingredients',
+                    action=argparse.BooleanOptionalAction,
+                    default=False,
+                    help='Generates ingredients of the given dishes.')
 
 
 if __name__ == '__main__':
@@ -94,3 +98,12 @@ if __name__ == '__main__':
             print(ingredients, origin, dish)
             mapping.add(dish, ingredients, origin)
         mapping.save()
+    
+
+    if args.ingredients:
+        inverse_generator = InverseDishGenerator()
+        mapping = DishIngredientMapping("data/dish_ingredient_mapping.json")
+        for list_of_dishes in dishes.values():
+            for dish in list_of_dishes:
+                ingredients = inverse_generator.generate_ingredients(dish, "")
+                print(dish, ingredients)
