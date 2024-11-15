@@ -6,7 +6,7 @@ from picook.config.ingredients_dishes import ingredients, dishes, origins
 from picook.config.utils import DishIngredientMapping
 from picook.image_retrieval.image_retrieval import get_images
 from picook.zero_shot_ingredient_classifier.classifier import ImageValidator
-from picook.dish_generator.dish_generator import DishGenerator
+from picook.dish_generator.dish_generator_context import DishGenerator
 
 parser = argparse.ArgumentParser(prog='PICooK',
                                  description='Helps you to find a delicious dish based on the ingredients you have at home.',
@@ -79,8 +79,7 @@ if __name__ == '__main__':
             num_ingredients = int(random.uniform(args.min_ingredients, args.max_ingredients))
             ingredients = random.sample(all_ingredients, num_ingredients)
             origin = random.sample(origins, 1)[0]
-            dish_description = generator.generate_dish_description(ingredients)
-            dish = generator.get_first_sentence(dish_description)
+            dish = generator.generate_dish(ingredients)
             print(ingredients, dish)
             mapping.add(dish, ingredients)
         mapping.save()

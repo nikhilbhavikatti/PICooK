@@ -4,6 +4,10 @@
 #!results/**
 !results/**/*.pickle
 
+# no logs
+*.wandb
+*.safetensors
+
 # bwhpc slurm files
 bwhpc/slurm-*
 

@@ -14,7 +14,7 @@ class DishIngredientMapping():
     
     def save(self):
         with open(self.path, 'w') as f:
-            json.dump(self.data, f)
+            json.dump(self.data, f, indent=4)
     
     def load(self):
         with open(self.path, 'r') as f:
