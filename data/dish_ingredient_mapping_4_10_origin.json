@@ -1,0 +1,1277 @@
+{
+    "metadata": {
+        "min_ingredients": 4,
+        "max_ingredients": 10,
+        "use_origin": true
+    },
+    "data": [
+        {
+            "dish_name": "Guava Beef Stir Fry",
+            "ingredients": [
+                "guava",
+                "fermented soy sauce",
+                "boysenberry",
+                "corn",
+                "turmeric",
+                "radish"
+            ],
+            "origin:": "Chinese"
+        },
+        {
+            "dish_name": "Ceviche de Papas y Plátano",
+            "ingredients": [
+                "blackcurrant",
+                "soy sauce",
+                "banana",
+                "fava beans",
+                "parsley",
+                "eggplant",
+                "milk",
+                "watermelon"
+            ],
+            "origin:": "Peruvian"
+        },
+        {
+            "dish_name": "Açaí Smoothie with Cilantro and Cashew Crunch",
+            "ingredients": [
+                "smoothies",
+                "cilantro",
+                "cashew",
+                "celery",
+                "cardamom"
+            ],
+            "origin:": "Brazilian"
+        },
+        {
+            "dish_name": "Misir Wot",
+            "ingredients": [
+                "bok choy",
+                "amaranth",
+                "brown sugar",
+                "bacon",
+                "rhubarb"
+            ],
+            "origin:": "Ethiopian"
+        },
+        {
+            "dish_name": "Falafel with Okra Slaw",
+            "ingredients": [
+                "sour cream",
+                "okra",
+                "brussels sprouts",
+                "chips"
+            ],
+            "origin:": "Lebanese"
+        },
+        {
+            "dish_name": "Caribbean Clam Miso Fritters with Mango Chutney and Sauteed Mushrooms",
+            "ingredients": [
+                "butter",
+                "clams",
+                "miso",
+                "mango",
+                "mushroom"
+            ],
+            "origin:": "Caribbean"
+        },
+        {
+            "dish_name": "Tortilla Española con Verduras y Frutas",
+            "ingredients": [
+                "brussels sprouts",
+                "blackberry",
+                "cranberry",
+                "potato",
+                "chard",
+                "parsley"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Turkish-Style Stuffed Gooseberry Waffles with Sour Cream and Corn",
+            "ingredients": [
+                "gooseberry",
+                "rice",
+                "corn",
+                "microwave dinners",
+                "sour cream",
+                "kefir",
+                "waffle"
+            ],
+            "origin:": "Turkish"
+        },
+        {
+            "dish_name": "Khao Soi",
+            "ingredients": [
+                "corn chowder",
+                "catfish",
+                "yogurt",
+                "duck",
+                "kombucha",
+                "corn",
+                "lychee"
+            ],
+            "origin:": "Thai"
+        },
+        {
+            "dish_name": "Melomakarona with Sausage and Okra",
+            "ingredients": [
+                "soy sauce",
+                "okra",
+                "sausage",
+                "sage",
+                "hemp seed",
+                "molasses",
+                "currant"
+            ],
+            "origin:": "Greek"
+        },
+        {
+            "dish_name": "Pan con Tomate y Apricot",
+            "ingredients": [
+                "bread",
+                "coffee",
+                "lentils",
+                "apricot"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Rye and Crab Waffle with Spiced Edamame",
+            "ingredients": [
+                "frozen meals",
+                "edamame",
+                "rye",
+                "dragon fruit",
+                "waffle",
+                "crab",
+                "orange"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "Jjimjilbang-Style Shrimp and Collard Greens Stew with Papaya Salsa",
+            "ingredients": [
+                "shrimp",
+                "collard greens",
+                "papaya",
+                "ginger"
+            ],
+            "origin:": "Korean"
+        },
+        {
+            "dish_name": "Grapefruit and Fava Bean Tikki",
+            "ingredients": [
+                "grapefruit",
+                "corn chowder",
+                "fava beans",
+                "fruit juice",
+                "canned goods",
+                "pine nut"
+            ],
+            "origin:": "Indian"
+        },
+        {
+            "dish_name": "Jerk Aubergine and Bok Choy Stir Fry",
+            "ingredients": [
+                "aubergine",
+                "cherry",
+                "bok choy",
+                "lentil soup",
+                "tomato",
+                "currant",
+                "smoothies",
+                "chia seed"
+            ],
+            "origin:": "Caribbean"
+        },
+        {
+            "dish_name": "Gratin de légumes et amaranthe",
+            "ingredients": [
+                "vegetable soup",
+                "green beans",
+                "amaranth",
+                "eggplant",
+                "milk"
+            ],
+            "origin:": "French"
+        },
+        {
+            "dish_name": "Avocado Curry with Currant and Plum Chutney",
+            "ingredients": [
+                "currant",
+                "avocado",
+                "herbal tea",
+                "plum",
+                "sour cream",
+                "rice",
+                "parsley"
+            ],
+            "origin:": "Japanese"
+        },
+        {
+            "dish_name": "Khao Soi",
+            "ingredients": [
+                "fava beans",
+                "turnip",
+                "honey",
+                "pork",
+                "butter",
+                "miso",
+                "cabbage",
+                "bay leaf"
+            ],
+            "origin:": "Thai"
+        },
+        {
+            "dish_name": "Sesame Edamame and Herring Tikka",
+            "ingredients": [
+                "edamame",
+                "sesame seed",
+                "herring",
+                "amaranth",
+                "chili pepper",
+                "blueberry",
+                "leek",
+                "catfish",
+                "blackberry"
+            ],
+            "origin:": "Indian"
+        },
+        {
+            "dish_name": "Pancake with Asparagus and Goose Fritters",
+            "ingredients": [
+                "asparagus",
+                "turmeric",
+                "pancake",
+                "goose"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Tortilla Española",
+            "ingredients": [
+                "bok choy",
+                "mustard",
+                "parsley",
+                "sorghum",
+                "venison",
+                "trout",
+                "deli meats",
+                "tilapia"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Tortilla Española",
+            "ingredients": [
+                "collard greens",
+                "sweet potato",
+                "Brazil nut",
+                "redcurrant",
+                "green beans",
+                "lentil soup",
+                "muffin",
+                "daikon",
+                "bulgur"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Bánh Xèo",
+            "ingredients": [
+                "smoothies",
+                "hot chocolate",
+                "fennel seed",
+                "ghee"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Artichoke Fritters with Currant Chutney and Fennel Aioli",
+            "ingredients": [
+                "currant",
+                "coffee",
+                "artichoke",
+                "fennel",
+                "corn"
+            ],
+            "origin:": "French"
+        },
+        {
+            "dish_name": "Buckwheat Blini with Strawberry Sour Cream",
+            "ingredients": [
+                "sour cream",
+                "strawberry",
+                "lentil sprouts",
+                "tomato soup",
+                "pineapple",
+                "buckwheat"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Bánh Xèo",
+            "ingredients": [
+                "kefir",
+                "yogurt",
+                "jackfruit",
+                "pork",
+                "cod"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Bun Bo Hue",
+            "ingredients": [
+                "quince",
+                "pinto beans",
+                "pumpkin",
+                "venison",
+                "fermented soy sauce",
+                "mayonnaise"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Teriyaki Broccoli and Quinoa Bowl",
+            "ingredients": [
+                "broccoli",
+                "cake",
+                "quinoa",
+                "vinegar",
+                "raspberry",
+                "beetroot",
+                "cod",
+                "vegetable soup"
+            ],
+            "origin:": "Japanese"
+        },
+        {
+            "dish_name": "Risotto alla Tartufata con Funghi",
+            "ingredients": [
+                "mushroom",
+                "sorghum",
+                "quince",
+                "waffle"
+            ],
+            "origin:": "Italian"
+        },
+        {
+            "dish_name": "Tabbouleh",
+            "ingredients": [
+                "avocado oil",
+                "fruit juice",
+                "basil",
+                "cream cheese",
+                "grapefruit"
+            ],
+            "origin:": "Lebanese"
+        },
+        {
+            "dish_name": "Misir Wot",
+            "ingredients": [
+                "ready-to-eat meals",
+                "elderberry",
+                "strawberry",
+                "salsa",
+                "herbal tea",
+                "parsley",
+                "macadamia",
+                "mustard"
+            ],
+            "origin:": "Ethiopian"
+        },
+        {
+            "dish_name": "Borscht",
+            "ingredients": [
+                "crab",
+                "vegetable soup",
+                "sauerkraut",
+                "herring",
+                "turmeric",
+                "shrimp",
+                "guava",
+                "coffee"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Pirozhki",
+            "ingredients": [
+                "evaporated milk",
+                "blueberry",
+                "dragon fruit",
+                "vegetable oil",
+                "sage"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Aji de Trucha con Papas y Sweet Potatoes",
+            "ingredients": [
+                "trout",
+                "coconut oil",
+                "quail",
+                "hot sauce",
+                "turmeric",
+                "guava",
+                "sweet potato",
+                "ready-to-eat meals",
+                "oats"
+            ],
+            "origin:": "Peruvian"
+        },
+        {
+            "dish_name": "Tempeh Curry",
+            "ingredients": [
+                "tempeh",
+                "cashew",
+                "herbal tea",
+                "coconut"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "Pork Vindaloo with Passion Fruit Chutney",
+            "ingredients": [
+                "passion fruit",
+                "pork",
+                "oats",
+                "relish",
+                "durian"
+            ],
+            "origin:": "Indian"
+        },
+        {
+            "dish_name": "Misir Wot",
+            "ingredients": [
+                "brown sugar",
+                "currant",
+                "fermented soy sauce",
+                "cream",
+                "chia seed",
+                "mung beans"
+            ],
+            "origin:": "Ethiopian"
+        },
+        {
+            "dish_name": "Moqueca de Peixe",
+            "ingredients": [
+                "halibut",
+                "plum",
+                "amaranth",
+                "teriyaki sauce"
+            ],
+            "origin:": "Brazilian"
+        },
+        {
+            "dish_name": "Kohlrabi and Banana Gyro",
+            "ingredients": [
+                "ready-to-eat meals",
+                "banana",
+                "kohlrabi",
+                "avocado",
+                "pickles"
+            ],
+            "origin:": "Greek"
+        },
+        {
+            "dish_name": "Bulgur and Kiwi Salad",
+            "ingredients": [
+                "bbq sauce",
+                "bulgur",
+                "avocado oil",
+                "kiwi",
+                "olive oil",
+                "evaporated milk",
+                "cheese",
+                "pesto",
+                "celery"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Misir Wot with Injera and fried octopus",
+            "ingredients": [
+                "tomato",
+                "aubergine",
+                "sunflower seed",
+                "croissant",
+                "yogurt",
+                "mint",
+                "mung beans",
+                "octopus"
+            ],
+            "origin:": "Ethiopian"
+        },
+        {
+            "dish_name": "B'stilla Tart",
+            "ingredients": [
+                "lentil soup",
+                "kidney beans",
+                "tart",
+                "cream cheese",
+                "endive",
+                "evaporated milk",
+                "bulgur"
+            ],
+            "origin:": "Moroccan"
+        },
+        {
+            "dish_name": "Black Bean and Rice Fritters",
+            "ingredients": [
+                "rice",
+                "mustard",
+                "sunflower seed",
+                "nectarine",
+                "grapeseed oil",
+                "flaxseed",
+                "black beans"
+            ],
+            "origin:": "Caribbean"
+        },
+        {
+            "dish_name": "Spanakopita with Brazil nut crust",
+            "ingredients": [
+                "basil",
+                "fermented hot sauce",
+                "potato",
+                "Brazil nut",
+                "paprika",
+                "tomato",
+                "olive oil",
+                "spelt"
+            ],
+            "origin:": "Greek"
+        },
+        {
+            "dish_name": "Soybean and Nectarine Salad with Cashew Crunch",
+            "ingredients": [
+                "soybeans",
+                "elderberry",
+                "flaxseed oil",
+                "nectarine",
+                "yogurt",
+                "cashew"
+            ],
+            "origin:": "Thai"
+        },
+        {
+            "dish_name": "Tortilla de Verduras y Frutas",
+            "ingredients": [
+                "honeydew melon",
+                "mulberry",
+                "beef",
+                "cucumber",
+                "parsley",
+                "honey",
+                "rye",
+                "jambul",
+                "nectarine"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Black Bean Roulade mit Pesto und Käse",
+            "ingredients": [
+                "cream",
+                "black beans",
+                "pesto",
+                "rosemary",
+                "milk"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "Jerk Rabbit with Sesame Crust",
+            "ingredients": [
+                "paprika",
+                "tomato soup",
+                "oregano",
+                "rabbit",
+                "chips",
+                "banana",
+                "chicken",
+                "sesame seed",
+                "octopus"
+            ],
+            "origin:": "Caribbean"
+        },
+        {
+            "dish_name": "Stifado",
+            "ingredients": [
+                "cream cheese",
+                "plum",
+                "beef broth",
+                "bacon",
+                "chia seed",
+                "elderberry"
+            ],
+            "origin:": "Greek"
+        },
+        {
+            "dish_name": "Honeydew and Black Bean Salad with Mustard Vinaigrette",
+            "ingredients": [
+                "honeydew melon",
+                "cabbage",
+                "muffin",
+                "black beans",
+                "green peas",
+                "mustard",
+                "nutmeg"
+            ],
+            "origin:": "Italian"
+        },
+        {
+            "dish_name": "Parsnip and Buckwheat Chili",
+            "ingredients": [
+                "chili pepper",
+                "parsnip",
+                "sour cream",
+                "buckwheat",
+                "allspice"
+            ],
+            "origin:": "Mexican"
+        },
+        {
+            "dish_name": "Korean-Style Shrimp and Cherry Salad with Turmeric Waffle Croutons",
+            "ingredients": [
+                "cherry",
+                "watercress",
+                "milkshake",
+                "kumquat",
+                "waffle",
+                "turmeric",
+                "vinegar",
+                "shrimp"
+            ],
+            "origin:": "Korean"
+        },
+        {
+            "dish_name": "Tortilla de Patatas con Frijoles y Espinacas",
+            "ingredients": [
+                "cardamom",
+                "fava beans",
+                "yogurt",
+                "pork",
+                "kimchi",
+                "okra",
+                "chicken",
+                "shallot"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Pelmeni with Avocado and Caviar.",
+            "ingredients": [
+                "halibut",
+                "avocado",
+                "currant",
+                "grapefruit",
+                "goose",
+                "butter",
+                "mayonnaise",
+                "quail",
+                "octopus"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Greek Salad",
+            "ingredients": [
+                "quinoa",
+                "zucchini",
+                "cilantro",
+                "yogurt",
+                "banana",
+                "cabbage"
+            ],
+            "origin:": "Greek"
+        },
+        {
+            "dish_name": "Tortilla Española con Verduras",
+            "ingredients": [
+                "avocado",
+                "radish",
+                "avocado oil",
+                "cucumber",
+                "great northern beans",
+                "cashew",
+                "kiwi",
+                "flaxseed oil",
+                "deli meats"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Turkish Stuffed Pastry with Crab and Cheese",
+            "ingredients": [
+                "cheese",
+                "pastry",
+                "crab",
+                "navy beans",
+                "turkey",
+                "fig"
+            ],
+            "origin:": "Turkish"
+        },
+        {
+            "dish_name": "Bibimbap",
+            "ingredients": [
+                "pumpkin seed",
+                "potato",
+                "bagel",
+                "evaporated milk"
+            ],
+            "origin:": "Korean"
+        },
+        {
+            "dish_name": "Pomegranate Glazed Aubergine and Cod Fritters",
+            "ingredients": [
+                "cookie",
+                "cod",
+                "aubergine",
+                "pumpkin soup",
+                "pomegranate"
+            ],
+            "origin:": "Italian"
+        },
+        {
+            "dish_name": "Tostada de Aguacate con Espinacas",
+            "ingredients": [
+                "fruit juice",
+                "lime",
+                "watermelon",
+                "brussels sprouts",
+                "soda",
+                "mung beans",
+                "blueberry"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Spätzle mit Melone, Speck und Süßkartoffel",
+            "ingredients": [
+                "honeydew melon",
+                "nutmeg",
+                "basil",
+                "sausage",
+                "date",
+                "sweet potato",
+                "green peas"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "Duck Dak Guk Bokkeum",
+            "ingredients": [
+                "daikon",
+                "miso soup",
+                "butter",
+                "turmeric",
+                "tomato soup",
+                "duck",
+                "coriander leaves",
+                "mayonnaise",
+                "kiwi"
+            ],
+            "origin:": "Korean"
+        },
+        {
+            "dish_name": "Pumpkin Crab Tacos",
+            "ingredients": [
+                "pumpkin",
+                "kombucha",
+                "coffee",
+                "crab",
+                "lettuce"
+            ],
+            "origin:": "Mexican"
+        },
+        {
+            "dish_name": "Melomakarona",
+            "ingredients": [
+                "parsnip",
+                "bay leaf",
+                "ginger",
+                "tart",
+                "molasses",
+                "blackberry",
+                "salsa",
+                "date"
+            ],
+            "origin:": "Greek"
+        },
+        {
+            "dish_name": "Korean-Style Grilled Catfish with Farro and Kohlrabi Salad",
+            "ingredients": [
+                "kohlrabi",
+                "farro",
+                "catfish",
+                "leek",
+                "agave nectar",
+                "bay leaf",
+                "clams"
+            ],
+            "origin:": "Korean"
+        },
+        {
+            "dish_name": "Saucisson aux Concombres et Tomates",
+            "ingredients": [
+                "sausage",
+                "tomato soup",
+                "clams",
+                "aubergine",
+                "nectarine"
+            ],
+            "origin:": "French"
+        },
+        {
+            "dish_name": "Chickpea and Jackfruit Chili con Carne",
+            "ingredients": [
+                "canola oil",
+                "jackfruit",
+                "split peas",
+                "chickpeas",
+                "sorghum",
+                "maple syrup",
+                "sour cream"
+            ],
+            "origin:": "Mexican"
+        },
+        {
+            "dish_name": "Doner Kebab",
+            "ingredients": [
+                "fig",
+                "venison",
+                "molasses",
+                "yogurt",
+                "tart",
+                "lettuce",
+                "chips",
+                "great northern beans",
+                "vegetable soup"
+            ],
+            "origin:": "Turkish"
+        },
+        {
+            "dish_name": "Ceviche de Mariscos con Semilla de Calabaza",
+            "ingredients": [
+                "squid",
+                "pumpkin seed",
+                "tomato",
+                "bok choy",
+                "salsa",
+                "celery"
+            ],
+            "origin:": "Peruvian"
+        },
+        {
+            "dish_name": "Khao Niew Mamuang",
+            "ingredients": [
+                "sesame oil",
+                "agave nectar",
+                "passion fruit",
+                "condensed milk",
+                "turnip",
+                "blackcurrant",
+                "plum"
+            ],
+            "origin:": "Thai"
+        },
+        {
+            "dish_name": "Beef Lychee Stroganoff",
+            "ingredients": [
+                "lychee",
+                "canned goods",
+                "clams",
+                "honey",
+                "flaxseed oil",
+                "molasses",
+                "butter",
+                "avocado oil",
+                "beef broth"
+            ],
+            "origin:": "Russian"
+        },
+        {
+            "dish_name": "Creamy Pine Nut Wonton Soup",
+            "ingredients": [
+                "pine nut",
+                "garlic",
+                "milk",
+                "milkshake",
+                "tart",
+                "frozen meals"
+            ],
+            "origin:": "Chinese"
+        },
+        {
+            "dish_name": "Vietnamese Beef and Sweet Potato Salad",
+            "ingredients": [
+                "macadamia",
+                "blackberry",
+                "sweet potato",
+                "watermelon",
+                "vinegar",
+                "beef",
+                "hot chocolate"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Bun Ga Chay",
+            "ingredients": [
+                "lentils",
+                "lentil sprouts",
+                "gooseberry",
+                "chicken"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Jerk Pumpkin Seed Fritters with Orange-Glazed Tomato",
+            "ingredients": [
+                "orange",
+                "chili pepper",
+                "tomato",
+                "clementine",
+                "pumpkin seed",
+                "brown sugar"
+            ],
+            "origin:": "Caribbean"
+        },
+        {
+            "dish_name": "Pancake Noodle Soup",
+            "ingredients": [
+                "allspice",
+                "pancake",
+                "goose",
+                "kohlrabi",
+                "instant noodles"
+            ],
+            "origin:": "Chinese"
+        },
+        {
+            "dish_name": "Sfogliatelle con Frutta e Erbe",
+            "ingredients": [
+                "gooseberry",
+                "pancake",
+                "sage",
+                "cardamom",
+                "fennel"
+            ],
+            "origin:": "Italian"
+        },
+        {
+            "dish_name": "Fermented Hot Sauce Fried Rice",
+            "ingredients": [
+                "fermented hot sauce",
+                "rice",
+                "stevia",
+                "butter"
+            ],
+            "origin:": "Chinese"
+        },
+        {
+            "dish_name": "Scallop and Mackerel Biryani",
+            "ingredients": [
+                "kombucha",
+                "mackerel",
+                "date",
+                "kimchi",
+                "sesame seed",
+                "allspice",
+                "shallot",
+                "scallops",
+                "beef broth"
+            ],
+            "origin:": "Indian"
+        },
+        {
+            "dish_name": "B'stilla",
+            "ingredients": [
+                "celery",
+                "duck",
+                "sugar",
+                "bell pepper",
+                "cream"
+            ],
+            "origin:": "Moroccan"
+        },
+        {
+            "dish_name": "Bánh Xèo with Octopus and Mushrooms",
+            "ingredients": [
+                "redcurrant",
+                "mushroom",
+                "cabbage",
+                "jackfruit",
+                "cantaloupe",
+                "plum",
+                "frozen meals",
+                "currant",
+                "octopus"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Apfelwein Glühwein Miso Glühkrapfen",
+            "ingredients": [
+                "fruit juice",
+                "apricot",
+                "alcohol",
+                "miso"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "Artichoke and Sweet Potato Fritters with Spiced Nectarine Chutney",
+            "ingredients": [
+                "vegetable soup",
+                "nectarine",
+                "cinnamon",
+                "artichoke",
+                "cumin",
+                "grape",
+                "coconut water",
+                "chips",
+                "scallion"
+            ],
+            "origin:": "Caribbean"
+        },
+        {
+            "dish_name": "Korean-Style Clam and Okra Stir Fry",
+            "ingredients": [
+                "clam chowder",
+                "scallion",
+                "farro",
+                "croissant",
+                "butter",
+                "okra",
+                "bell pepper"
+            ],
+            "origin:": "Korean"
+        },
+        {
+            "dish_name": "Bánh Xèo with Squid and Yam",
+            "ingredients": [
+                "yam",
+                "croissant",
+                "squid",
+                "kohlrabi",
+                "horseradish",
+                "jicama",
+                "evaporated milk",
+                "almond"
+            ],
+            "origin:": "Vietnamese"
+        },
+        {
+            "dish_name": "Artichoke and Broccoli Schnitzel",
+            "ingredients": [
+                "avocado",
+                "oregano",
+                "turmeric",
+                "artichoke",
+                "cabbage",
+                "rutabaga",
+                "olive oil",
+                "broccoli"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "B'stilla",
+            "ingredients": [
+                "parsley",
+                "broccoli",
+                "pear",
+                "snacks",
+                "hot sauce",
+                "green beans",
+                "bell pepper",
+                "orange",
+                "cottage cheese"
+            ],
+            "origin:": "Moroccan"
+        },
+        {
+            "dish_name": "Harira à la Provençale",
+            "ingredients": [
+                "lemon",
+                "green beans",
+                "potato",
+                "couscous",
+                "yogurt",
+                "oregano"
+            ],
+            "origin:": "French"
+        },
+        {
+            "dish_name": "Kartoffelklöße mit Lachs und Zwiebeln",
+            "ingredients": [
+                "dill",
+                "walnut",
+                "canned goods",
+                "garlic",
+                "watercress",
+                "dragon fruit",
+                "yam",
+                "cod",
+                "kefir"
+            ],
+            "origin:": "German"
+        },
+        {
+            "dish_name": "Ayran",
+            "ingredients": [
+                "coconut water",
+                "gooseberry",
+                "yogurt",
+                "relish",
+                "apricot",
+                "chips",
+                "peach",
+                "mustard"
+            ],
+            "origin:": "Turkish"
+        },
+        {
+            "dish_name": "Chiles Rellenos de Pollo",
+            "ingredients": [
+                "dragon fruit",
+                "turkey",
+                "hot chocolate",
+                "herring",
+                "canned goods",
+                "tomato",
+                "asparagus",
+                "butter"
+            ],
+            "origin:": "Mexican"
+        },
+        {
+            "dish_name": "Duck and Banana Congee",
+            "ingredients": [
+                "banana",
+                "duck",
+                "rabbit",
+                "water",
+                "molasses",
+                "evaporated milk"
+            ],
+            "origin:": "Chinese"
+        },
+        {
+            "dish_name": "Dolma",
+            "ingredients": [
+                "pumpkin",
+                "sunflower seed",
+                "cashew",
+                "lettuce",
+                "rabbit",
+                "sesame seed",
+                "potato",
+                "pumpkin soup"
+            ],
+            "origin:": "Turkish"
+        },
+        {
+            "dish_name": "Fritto Misto con Salsa di Tangerino",
+            "ingredients": [
+                "chard",
+                "shallot",
+                "tangerine",
+                "garlic",
+                "teriyaki sauce",
+                "croissant"
+            ],
+            "origin:": "Italian"
+        },
+        {
+            "dish_name": "Clementine and Lychee Marmalade Risotto with Great Northern Beans",
+            "ingredients": [
+                "lychee",
+                "great northern beans",
+                "lime",
+                "miso soup",
+                "clementine",
+                "lemon",
+                "canned goods",
+                "coconut",
+                "paprika"
+            ],
+            "origin:": "Italian"
+        },
+        {
+            "dish_name": "Misir Wot",
+            "ingredients": [
+                "evaporated milk",
+                "apricot",
+                "grape",
+                "crab",
+                "navy beans",
+                "teff",
+                "soda",
+                "soy sauce",
+                "croissant"
+            ],
+            "origin:": "Ethiopian"
+        },
+        {
+            "dish_name": "Empanadas de Venado con Mermelada de Mulberry",
+            "ingredients": [
+                "amaranth",
+                "hot chocolate",
+                "brownie",
+                "apple",
+                "tangerine",
+                "venison",
+                "mulberry",
+                "soy sauce",
+                "canola oil"
+            ],
+            "origin:": "Spanish"
+        },
+        {
+            "dish_name": "Aji de Gallina con Pan Tostado",
+            "ingredients": [
+                "sugar",
+                "chicken",
+                "jambul",
+                "sorghum",
+                "sauerkraut",
+                "bread",
+                "tomato soup",
+                "persimmon",
+                "Brazil nut"
+            ],
+            "origin:": "Peruvian"
+        },
+        {
+            "dish_name": "Bagel Borek",
+            "ingredients": [
+                "bagel",
+                "bok choy",
+                "oregano",
+                "muffin"
+            ],
+            "origin:": "Turkish"
+        },
+        {
+            "dish_name": "Vietnamese-Style Millet and Bean Salad with Pickled Pineapple",
+            "ingredients": [
+                "oregano",
+                "millet",
+                "navy beans",
+                "canola oil",
+                "fava beans",
+                "molasses",
+                "pineapple",
+                "cinnamon",
+                "vegetable oil"
+            ],
+            "origin:": "Vietnamese"
+        }
+    ]
+}

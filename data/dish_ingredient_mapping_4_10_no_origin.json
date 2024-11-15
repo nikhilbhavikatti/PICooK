@@ -1,0 +1,1254 @@
+{
+    "metadata": {
+        "min_ingredients": 4,
+        "max_ingredients": 10,
+        "use_origin": false
+    },
+    "data": [
+        {
+            "dish_name": "Apricot Sorghum Pudding",
+            "ingredients": [
+                "sorghum",
+                "apricot",
+                "milk",
+                "water",
+                "fennel",
+                "passion fruit",
+                "evaporated milk",
+                "kombucha"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Stir-Fried Nectarine and Pea Salad with Ginger Scallion Vinaigrette",
+            "ingredients": [
+                "ginger",
+                "scallion",
+                "nectarine",
+                "peas",
+                "olive oil",
+                "canola oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Turnip and Oat Fritters",
+            "ingredients": [
+                "oats",
+                "milkshake",
+                "flaxseed",
+                "lime",
+                "turnip",
+                "olive oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Cranberry-Ginger Bean Salad with Turkey and Croissant Croutons",
+            "ingredients": [
+                "great northern beans",
+                "muffin",
+                "cranberry",
+                "turkey",
+                "ginger",
+                "crab",
+                "kefir",
+                "croissant",
+                "chips"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Rabbit with Mackerel Salsa and Garlic Aioli",
+            "ingredients": [
+                "avocado oil",
+                "garlic",
+                "rabbit",
+                "mackerel"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Persimmon and Peach Salad with Spiced Lentil Sprouts and Coffee Vinaigrette",
+            "ingredients": [
+                "persimmon",
+                "lentil sprouts",
+                "peach",
+                "coffee"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tempeh and Beet Couscous Bowl with Brazil Nut Crust and Cherry Chutney",
+            "ingredients": [
+                "sage",
+                "Brazil nut",
+                "beetroot",
+                "allspice",
+                "cherry",
+                "couscous",
+                "tempeh"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tuna and Mung Bean Stir Fry",
+            "ingredients": [
+                "mung beans",
+                "butter",
+                "tuna",
+                "turnip",
+                "green beans",
+                "kidney beans",
+                "sugar"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Couscous Bowl with Roasted Vegetables and Avocado-Lentil Sauce",
+            "ingredients": [
+                "couscous",
+                "avocado",
+                "lentil soup",
+                "mayonnaise",
+                "cauliflower",
+                "gooseberry",
+                "lentil sprouts",
+                "carrot"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Beef and Mango Stir Fry with Chard and Gooseberry Salsa",
+            "ingredients": [
+                "relish",
+                "chard",
+                "chinese cabbage",
+                "mango",
+                "fava beans",
+                "beef",
+                "ginger",
+                "tuna",
+                "gooseberry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Shrimp and Sausage Skewers with Fennel and Pine Nut Salad",
+            "ingredients": [
+                "cumin",
+                "sausage",
+                "shrimp",
+                "fennel",
+                "green beans",
+                "pine nut",
+                "coconut oil",
+                "kumquat",
+                "watercress"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Passion Fruit Panna Cotta with Amaranth Crunch and Coconut Water Granita",
+            "ingredients": [
+                "coconut water",
+                "amaranth",
+                "milkshake",
+                "passion fruit"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Crab and Rutabaga Cakes with Bacon-Thyme Aioli and Sesame-Coconut Crust",
+            "ingredients": [
+                "cheese",
+                "thyme",
+                "sesame seed",
+                "bacon",
+                "coconut",
+                "crab",
+                "rutabaga"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Turkey and Cranberry Casserole",
+            "ingredients": [
+                "turkey",
+                "canola oil",
+                "mackerel",
+                "okra",
+                "smoothies",
+                "dill",
+                "cilantro",
+                "pheasant",
+                "cranberry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Roasted Brussels Sprouts and Rutabaga Salad with Kumquat-Corn Salsa and Farro Croutons",
+            "ingredients": [
+                "brussels sprouts",
+                "kumquat",
+                "farro",
+                "corn",
+                "rutabaga"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Cauliflower and Honeydew Melon Soup with Passion Fruit Salsa",
+            "ingredients": [
+                "cauliflower",
+                "passion fruit",
+                "microwave dinners",
+                "honeydew melon",
+                "soybeans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Turnip and Pistachio Gnocchi with Thyme and Ginger Yogurt Sauce",
+            "ingredients": [
+                "thyme",
+                "turnip",
+                "pistachio",
+                "yogurt",
+                "ginger"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watermelon and Cashew Salad with Balsamic Vinaigrette",
+            "ingredients": [
+                "watermelon",
+                "bagel",
+                "maple syrup",
+                "mayonnaise",
+                "milk",
+                "hot chocolate",
+                "cashew"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Venison and Sauerkraut Stuffed Hazelnut Tart with Grapefruit Glaze",
+            "ingredients": [
+                "venison",
+                "dragon fruit",
+                "hazelnut",
+                "beef broth",
+                "tart",
+                "grapefruit",
+                "sauerkraut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Chickpea and Ginger Curry",
+            "ingredients": [
+                "kombucha",
+                "chickpeas",
+                "ginger",
+                "cilantro",
+                "yogurt",
+                "turmeric",
+                "almond",
+                "turkey",
+                "cumin"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pinto Bean and Bamboo Shoot Pancake",
+            "ingredients": [
+                "bamboo shoots",
+                "pancake",
+                "pinto beans",
+                "ghee",
+                "deli meats"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pickle-Orange Salad with Sesame Crust",
+            "ingredients": [
+                "pickles",
+                "orange",
+                "sesame oil",
+                "tomato soup",
+                "almond",
+                "scallion",
+                "ghee"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Kiwi and Yogurt Salad with Coconut Lime Dressing",
+            "ingredients": [
+                "kiwi",
+                "soy sauce",
+                "yogurt",
+                "lemon",
+                "coconut water"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Jackfruit and Green Bean Stir Fry",
+            "ingredients": [
+                "watermelon",
+                "hemp seed",
+                "green beans",
+                "lentil soup",
+                "jackfruit"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pork and Peach Asparagus Tart",
+            "ingredients": [
+                "asparagus",
+                "cottage cheese",
+                "pork",
+                "peach",
+                "agave nectar",
+                "pumpkin",
+                "tomato soup",
+                "cherry",
+                "sour cream"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pecan Sage Pork Pie with Pastry Crust and Cardamom-Parsley Glaze",
+            "ingredients": [
+                "parsley",
+                "pastry",
+                "corn syrup",
+                "pecan",
+                "cardamom",
+                "pork",
+                "sage",
+                "coconut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Venison and Corn Fritters with Okra Slaw and Tuna Aioli",
+            "ingredients": [
+                "okra",
+                "corn syrup",
+                "venison",
+                "tuna"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Banana Fritters with Collard Greens Slaw and Cumin Aioli",
+            "ingredients": [
+                "banana",
+                "bell pepper",
+                "cumin",
+                "bagel",
+                "flaxseed oil",
+                "fennel",
+                "collard greens"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tuna and Brazil nut patties with amaranth pancake and paprika aioli",
+            "ingredients": [
+                "Brazil nut",
+                "lentil soup",
+                "currant",
+                "cream",
+                "paprika",
+                "tuna",
+                "sorghum",
+                "amaranth",
+                "pancake"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tomato Soup Glazed Quail with Horseradish Crunch.",
+            "ingredients": [
+                "tomato soup",
+                "horseradish",
+                "agave nectar",
+                "quail"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Halibut with Kohlrabi Slaw and Dill Cream Cheese Sauce",
+            "ingredients": [
+                "cream cheese",
+                "halibut",
+                "tempeh",
+                "soda",
+                "dill",
+                "onion",
+                "kohlrabi",
+                "lime",
+                "corn chowder"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Squid and Pineapple Salad with Roasted Parsnip and Chard",
+            "ingredients": [
+                "chard",
+                "pineapple",
+                "squid",
+                "parsnip"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Yam Leek Gratin",
+            "ingredients": [
+                "black pepper",
+                "hot chocolate",
+                "leek",
+                "yam"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Navy Bean and Fig Salad with Pesto Vinaigrette",
+            "ingredients": [
+                "parsley",
+                "navy beans",
+                "coffee",
+                "fig"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Halibut with Pecan-Cilantro Crust and Lentil Sprout Relish.",
+            "ingredients": [
+                "pecan",
+                "cilantro",
+                "vinegar",
+                "lentil sprouts",
+                "clam chowder",
+                "halibut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Pheasant with Bamboo Shoot and Lychee Stir Fry, served with Spelt Pesto Crostini.",
+            "ingredients": [
+                "hemp seed",
+                "bamboo shoots",
+                "pheasant",
+                "ginger",
+                "cake",
+                "black pepper",
+                "spelt",
+                "pesto",
+                "lychee"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Durian and Sauerkraut Fritters with Parsley Chutney",
+            "ingredients": [
+                "parsley",
+                "goji berry",
+                "fennel seed",
+                "durian",
+                "sauerkraut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Fig and Cherry Compote with Chia Crusted Brioche",
+            "ingredients": [
+                "chia seed",
+                "miso soup",
+                "coffee",
+                "fig",
+                "cherry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Halibut with Cream Cheese and Tomato Sauce, topped with Lettuce Salad and Scallops",
+            "ingredients": [
+                "scallops",
+                "tomato",
+                "cream cheese",
+                "halibut",
+                "lettuce"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Thai-Style Basil Fried Rice",
+            "ingredients": [
+                "ghee",
+                "salsa",
+                "basil",
+                "turmeric",
+                "rice",
+                "peanut oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Artichoke, Orange, and Lentil Sprouts Salad with Bulgur Crostini.",
+            "ingredients": [
+                "artichoke",
+                "croissant",
+                "orange",
+                "lentil sprouts",
+                "bulgur",
+                "waffle",
+                "passion fruit",
+                "lime"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Nectarine and Quinoa Crusted Pastry with Cumin Avocado Oil Glaze",
+            "ingredients": [
+                "nectarine",
+                "cumin",
+                "pastry",
+                "avocado oil",
+                "stevia",
+                "quinoa"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pork and Pumpkin Stew",
+            "ingredients": [
+                "green beans",
+                "muffin",
+                "pork",
+                "kefir",
+                "pumpkin"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Boysenberry-Glazed Mango and Ginger Crusted Goose with Cashew Crunch and Celery Salad",
+            "ingredients": [
+                "miso soup",
+                "cashew",
+                "mango",
+                "sugar",
+                "boysenberry",
+                "ginger",
+                "goose",
+                "celery"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Rhubarb and Blackcurrant Tart",
+            "ingredients": [
+                "rhubarb",
+                "potato",
+                "farro",
+                "pastry",
+                "tahini",
+                "blackcurrant",
+                "pizza",
+                "coconut water"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Brazilian Raspberry Sorbet with Fresh Berry Garnish",
+            "ingredients": [
+                "Brazil nut",
+                "parsley",
+                "herbal tea",
+                "flaxseed",
+                "raspberry",
+                "strawberry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Scallop and Muffin Farro Bowl with Boysenberry Glaze",
+            "ingredients": [
+                "muffin",
+                "peanut oil",
+                "scallion",
+                "scallops",
+                "boysenberry",
+                "millet",
+                "grape",
+                "farro"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Elderberry Celery Panna Cotta with Caramelized Celery",
+            "ingredients": [
+                "celery",
+                "peanut oil",
+                "condensed milk",
+                "elderberry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Beetroot and Goat Cheese Tart",
+            "ingredients": [
+                "beetroot",
+                "turnip",
+                "basil",
+                "cheese",
+                "shallot",
+                "almond"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Thai-Style Farro Bowl with Grilled Turkey, Roasted Vegetables, and Spicy Peanut Sauce",
+            "ingredients": [
+                "green peas",
+                "coconut",
+                "beetroot",
+                "farro",
+                "turkey",
+                "asparagus",
+                "soybeans",
+                "bagel",
+                "herbal tea"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Papaya Pancake",
+            "ingredients": [
+                "fruit juice",
+                "papaya",
+                "pancake",
+                "butter",
+                "milkshake",
+                "tart",
+                "pickles"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Roasted Rutabaga and Brussels Sprouts Salad with Coconut Oil Vinaigrette",
+            "ingredients": [
+                "coconut oil",
+                "kombucha",
+                "brussels sprouts",
+                "lettuce",
+                "rutabaga"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Rosemary and Sesame Bagel Toast with Dill Cream and Maple Syrup Glaze",
+            "ingredients": [
+                "sesame oil",
+                "croissant",
+                "rosemary",
+                "maple syrup",
+                "dill",
+                "bagel",
+                "potato"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Clam Pesto Soup",
+            "ingredients": [
+                "pesto",
+                "vegetable soup",
+                "clams",
+                "paprika",
+                "sauerkraut",
+                "pickles"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Potato and Pork Soup with Crispy Pork Muffin",
+            "ingredients": [
+                "tomato soup",
+                "banana",
+                "muffin",
+                "pork",
+                "potato"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watermelon Pork Salad with Corn Chowder Croutons and Relish Vinaigrette",
+            "ingredients": [
+                "smoothies",
+                "pork",
+                "corn chowder",
+                "watermelon",
+                "relish"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Carrot and Blueberry Basil Salad with Horseradish Cream",
+            "ingredients": [
+                "carrot",
+                "horseradish",
+                "butter",
+                "kombucha",
+                "blueberry",
+                "basil",
+                "cheese",
+                "water",
+                "kumquat"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Elderberry Quinoa Pudding with Caramelized Sugar Crust",
+            "ingredients": [
+                "condensed milk",
+                "elderberry",
+                "brown sugar",
+                "quinoa"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Kimchi Noodle Soup",
+            "ingredients": [
+                "pickles",
+                "wheat",
+                "instant noodles",
+                "radish",
+                "fermented hot sauce"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Fava Bean and Turkey Empanadas with Corn Salsa and Chili Aioli",
+            "ingredients": [
+                "corn",
+                "chili pepper",
+                "turkey",
+                "pumpkin",
+                "peanut oil",
+                "fava beans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Quail with Sunflower Seed Crust and Kohlrabi Slaw",
+            "ingredients": [
+                "fermented hot sauce",
+                "sunflower seed",
+                "quail",
+                "kohlrabi",
+                "pancake",
+                "tuna",
+                "Brazil nut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Salmon with Horseradish Crust and Cranberry-Glazed Navy Beans",
+            "ingredients": [
+                "navy beans",
+                "microwave dinners",
+                "mint",
+                "salmon",
+                "guava",
+                "cranberry",
+                "beef broth",
+                "horseradish"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Venison and Endive Salad with Sunflower Seed Crust",
+            "ingredients": [
+                "venison",
+                "rice",
+                "durian",
+                "lemon",
+                "sunflower seed",
+                "bread",
+                "endive",
+                "kidney beans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Beef and Garlic Soup with Coconut Water Croutons",
+            "ingredients": [
+                "coconut water",
+                "garlic",
+                "beef",
+                "elderberry",
+                "kombucha"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Buckwheat and Chard Cakes with Clam Chowder Cream Sauce and Sauteed Mushrooms",
+            "ingredients": [
+                "clam chowder",
+                "buckwheat",
+                "mushroom",
+                "chard",
+                "sour cream"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Beef Skewers with Dragon Fruit Salsa and Macadamia Crust",
+            "ingredients": [
+                "water",
+                "beef",
+                "dragon fruit",
+                "macadamia",
+                "kombucha",
+                "agave nectar",
+                "yogurt",
+                "canola oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Korean-Style Chicken and Bacon Stir Fry with Cashew Crunch and Tangerine Glaze",
+            "ingredients": [
+                "chicken",
+                "tangerine",
+                "bacon",
+                "cashew"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Lentil and Blackcurrant Curry",
+            "ingredients": [
+                "lentils",
+                "blackcurrant",
+                "peas",
+                "condensed milk",
+                "ready-to-eat meals",
+                "starfruit",
+                "sunflower seed",
+                "cherry",
+                "relish"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Peach Goji Crumble with Passion Fruit Butter",
+            "ingredients": [
+                "peach",
+                "butter",
+                "passion fruit",
+                "goji berry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Cod with Buckwheat Crust, Cherry Salsa, and Cilantro Lime Dressing",
+            "ingredients": [
+                "goji berry",
+                "buckwheat",
+                "raspberry",
+                "chips",
+                "cod",
+                "cilantro",
+                "honeydew melon",
+                "cherry",
+                "lentil sprouts"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Strawberry BBQ Catfish with Corn Fritters",
+            "ingredients": [
+                "strawberry",
+                "ketchup",
+                "catfish",
+                "nutmeg",
+                "corn"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Salmon with Rutabaga-Pumpkin Mash and Spicy Chili Glaze",
+            "ingredients": [
+                "salmon",
+                "vegetable soup",
+                "rutabaga",
+                "molasses",
+                "lettuce",
+                "pumpkin",
+                "chili pepper",
+                "pumpkin soup"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Trout with Dragon Fruit Salsa and Turmeric Butter",
+            "ingredients": [
+                "dragon fruit",
+                "endive",
+                "black pepper",
+                "turmeric",
+                "mango",
+                "butter",
+                "trout",
+                "durian"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Clementine and Passion Fruit Crusted Brussels Sprouts with Spinach and Cookie Crust",
+            "ingredients": [
+                "clementine",
+                "passion fruit",
+                "cookie",
+                "spinach",
+                "brussels sprouts"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Gooseberry and Blackcurrant Crisp",
+            "ingredients": [
+                "gooseberry",
+                "black pepper",
+                "miso",
+                "pumpkin seed",
+                "kefir",
+                "oats",
+                "blackcurrant",
+                "agave nectar",
+                "cantaloupe"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Cinnamon-Glazed Salmon with Cantaloupe Salsa",
+            "ingredients": [
+                "cinnamon",
+                "cantaloupe",
+                "black pepper",
+                "salmon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Tuna with Grapefruit-Horseradish Salsa and Crispy Parsnip Tempura",
+            "ingredients": [
+                "grapefruit",
+                "mustard",
+                "maple syrup",
+                "parsnip",
+                "tuna",
+                "horseradish",
+                "coriander leaves",
+                "tempeh"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Venison and Persimmon Crêpes with Caramelized Salmon and Fig Compote",
+            "ingredients": [
+                "persimmon",
+                "pancake",
+                "salmon",
+                "pizza",
+                "venison"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Pear and Guava Salad with Honeydew Salsa and Sauerkraut Crunch",
+            "ingredients": [
+                "pear",
+                "honeydew melon",
+                "celery",
+                "sauerkraut",
+                "guava",
+                "ready-to-eat meals",
+                "nutmeg"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Miso Couscous Chicken",
+            "ingredients": [
+                "agave nectar",
+                "chicken broth",
+                "miso",
+                "couscous"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Spicy Turnip Fritters",
+            "ingredients": [
+                "fermented hot sauce",
+                "chili pepper",
+                "turnip",
+                "jicama",
+                "molasses"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Boysenberry Glazed Pan-Seared Tilapia with Grilled Eggplant and Pizza Crust Croutons",
+            "ingredients": [
+                "boysenberry",
+                "tilapia",
+                "pizza",
+                "eggplant"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Cod with Pineapple Salsa and Turmeric Aioli",
+            "ingredients": [
+                "turmeric",
+                "herbal tea",
+                "fennel",
+                "pineapple",
+                "confectioner's sugar",
+                "macadamia",
+                "fennel seed",
+                "cod",
+                "grapefruit"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Trout with Mango Salsa and Spicy Jicama Slaw",
+            "ingredients": [
+                "jicama",
+                "radish",
+                "fermented hot sauce",
+                "parsley",
+                "broccoli",
+                "mango",
+                "trout",
+                "allspice"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Fig and Pecan Lentil Curry",
+            "ingredients": [
+                "pecan",
+                "fig",
+                "evaporated milk",
+                "split peas",
+                "cream",
+                "apricot",
+                "lentils"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "BBQ Chicken and Sausage Yam Bowl",
+            "ingredients": [
+                "chia seed",
+                "ginger",
+                "yam",
+                "bbq sauce",
+                "date",
+                "chicken",
+                "sausage"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Catfish and Yam with Fennel Salsa and Jackfruit Lychee Salad",
+            "ingredients": [
+                "yam",
+                "catfish",
+                "fennel",
+                "squid",
+                "lychee",
+                "jackfruit"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Couscous Salad with Salsa and Buttermilk Dressing",
+            "ingredients": [
+                "couscous",
+                "ready-to-eat meals",
+                "salsa",
+                "vinegar",
+                "buttermilk"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Thai Coconut Kohlrabi Soup",
+            "ingredients": [
+                "coconut",
+                "coconut water",
+                "kohlrabi",
+                "coriander leaves",
+                "jicama"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Farro and Kidney Bean Chili",
+            "ingredients": [
+                "farro",
+                "hot sauce",
+                "kidney beans",
+                "miso soup"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Beef and Lentil Sprouts Pesto Wrap",
+            "ingredients": [
+                "pesto",
+                "lentil sprouts",
+                "beef",
+                "bay leaf",
+                "orange",
+                "soda",
+                "water",
+                "soybeans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Raspberry and Broccoli Tart",
+            "ingredients": [
+                "chili pepper",
+                "raspberry",
+                "broccoli",
+                "grapeseed oil",
+                "confectioner's sugar",
+                "pastry",
+                "eggplant",
+                "clementine"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Pheasant with Starfruit Salsa and Maple Glaze",
+            "ingredients": [
+                "dragon fruit",
+                "clam chowder",
+                "maple syrup",
+                "starfruit",
+                "clove",
+                "cookie",
+                "pheasant",
+                "grapeseed oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Shrimp and Sweet Potato Tacos with Black Bean Salsa and Macadamia Slaw.",
+            "ingredients": [
+                "sweet potato",
+                "shrimp",
+                "black beans",
+                "macadamia",
+                "tomato",
+                "watercress",
+                "canned goods"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Crab and Kale Waffle with Persimmon Chutney",
+            "ingredients": [
+                "kale",
+                "waffle",
+                "crab",
+                "persimmon",
+                "coconut water",
+                "sesame seed",
+                "walnut",
+                "kombucha",
+                "flaxseed oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Fava Bean and Ginger Soup",
+            "ingredients": [
+                "ginger",
+                "fava beans",
+                "evaporated milk",
+                "kiwi",
+                "blackcurrant",
+                "honey",
+                "navy beans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Spicy Yam and Mushroom Hash",
+            "ingredients": [
+                "mushroom",
+                "horseradish",
+                "yam",
+                "canola oil",
+                "cinnamon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Turkey and Fava Bean Salad with Roasted Vegetables",
+            "ingredients": [
+                "starfruit",
+                "corn",
+                "fava beans",
+                "asparagus",
+                "great northern beans",
+                "lettuce",
+                "turkey",
+                "chili pepper",
+                "sorghum"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Asparagus Tart",
+            "ingredients": [
+                "buttermilk",
+                "condensed milk",
+                "tart",
+                "asparagus",
+                "snacks",
+                "grapefruit",
+                "chard",
+                "stevia"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Cauliflower and Kidney Bean Tagine with Crispy Duck and Fennel Crust",
+            "ingredients": [
+                "cauliflower",
+                "kidney beans",
+                "duck",
+                "fennel seed"
+            ],
+            "origin:": ""
+        }
+    ]
+}

@@ -47,6 +47,10 @@ parser.add_argument('--num_dishes',
                     required=False,
                     default=256,
                     help='Number of dishes to generate.')
+parser.add_argument('--use_origin',
+                    action=argparse.BooleanOptionalAction,
+                    default=True,
+                    help='Whether a dish from a specific origin should be generated.')
 
 
 if __name__ == '__main__':
@@ -74,12 +78,19 @@ if __name__ == '__main__':
     if args.dishes:
         generator = DishGenerator()
         mapping = DishIngredientMapping("data/dish_ingredient_mapping.json")
+        mapping.set_metadata({"min_ingredients": args.min_ingredients,
+                              "max_ingredients": args.max_ingredients,
+                              "use_origin": args.use_origin})
         all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
         for i in range(args.num_dishes):
             num_ingredients = int(random.uniform(args.min_ingredients, args.max_ingredients))
             ingredients = random.sample(all_ingredients, num_ingredients)
-            origin = random.sample(origins, 1)[0]
-            dish = generator.generate_dish(ingredients)
-            print(ingredients, dish)
-            mapping.add(dish, ingredients)
+            if args.use_origin:
+                origin = random.sample(origins, 1)[0]
+                dish = generator.generate_dish(ingredients, origin)
+            else:
+                origin = ""
+                dish = generator.generate_dish(ingredients)
+            print(ingredients, origin, dish)
+            mapping.add(dish, ingredients, origin)
         mapping.save()

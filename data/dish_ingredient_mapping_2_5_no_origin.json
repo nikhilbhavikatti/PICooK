@@ -1,0 +1,901 @@
+{
+    "metadata": {
+        "min_ingredients": 2,
+        "max_ingredients": 5,
+        "use_origin": false
+    },
+    "data": [
+        {
+            "dish_name": "Persimmon and Cardamom Crème Brûlée",
+            "ingredients": [
+                "cardamom",
+                "persimmon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pineapple-Quince Chutney",
+            "ingredients": [
+                "pineapple",
+                "quince"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Eggplant Moussaka",
+            "ingredients": [
+                "eggplant",
+                "cinnamon",
+                "cumin",
+                "chard"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Paprikás Csirke",
+            "ingredients": [
+                "scallion",
+                "paprika"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Dragon Fruit and Coconut Tarts with Mulberry Compote",
+            "ingredients": [
+                "dragon fruit",
+                "coconut",
+                "mulberry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Beetroot Grape Salad",
+            "ingredients": [
+                "beetroot",
+                "grape"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Flaxseed and Cream Cheese Stuffed Crepes",
+            "ingredients": [
+                "flaxseed",
+                "cream cheese"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Artichoke and Relish Tartlets",
+            "ingredients": [
+                "relish",
+                "chia seed",
+                "microwave dinners",
+                "artichoke"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Guava Aubergine Chutney Grilled Cheese",
+            "ingredients": [
+                "aubergine",
+                "guava"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Mulberry Macadamia Crusted Chicken with Turmeric Paprika Glaze",
+            "ingredients": [
+                "turmeric",
+                "paprika",
+                "mulberry",
+                "macadamia"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pecan Bay Leaf Crusted Pork Chops",
+            "ingredients": [
+                "pecan",
+                "bay leaf"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Lentil Pizza Bites",
+            "ingredients": [
+                "lentils",
+                "pizza"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Catfish Po' Boy",
+            "ingredients": [
+                "mustard",
+                "catfish"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Quince Tahini Glazed Chicken",
+            "ingredients": [
+                "quince",
+                "tahini"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Boysenberry Teff Crumble Bars",
+            "ingredients": [
+                "boysenberry",
+                "teff"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Rye Ginger Crisp",
+            "ingredients": [
+                "rye",
+                "ginger"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Elderberry Asparagus Fritters with Hemp Seed Aioli",
+            "ingredients": [
+                "elderberry",
+                "hemp seed",
+                "asparagus"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Garlic Fried Rice",
+            "ingredients": [
+                "rice",
+                "garlic"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Jackfruit Trout Cakes",
+            "ingredients": [
+                "jackfruit",
+                "trout"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Korean-Style Chicken Buckwheat Noodle Stir-Fry",
+            "ingredients": [
+                "wheat",
+                "chicken",
+                "instant noodles",
+                "buckwheat"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watermelon Mint Martini",
+            "ingredients": [
+                "watermelon",
+                "alcohol",
+                "pine nut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watercress Bread Soup",
+            "ingredients": [
+                "watercress",
+                "agave nectar",
+                "bread"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Shrimp and Rabbit Etouffee",
+            "ingredients": [
+                "shrimp",
+                "relish",
+                "rabbit"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Duck and Oat Stew",
+            "ingredients": [
+                "oats",
+                "duck"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Stuffed Dates with Fennel and Prosciutto",
+            "ingredients": [
+                "fennel seed",
+                "date"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Cashew and Soybean Satay",
+            "ingredients": [
+                "cashew",
+                "soybeans",
+                "pine nut",
+                "ready-to-eat meals"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Sorghum Crusted Bacon with Herbal Tea Glaze",
+            "ingredients": [
+                "herbal tea",
+                "sorghum",
+                "bacon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tempeh Teriyaki Yogurt Bites",
+            "ingredients": [
+                "tempeh",
+                "teriyaki sauce",
+                "brown sugar",
+                "yogurt"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Stir-Fried Chinese Cabbage with Coriander",
+            "ingredients": [
+                "chinese cabbage",
+                "coriander leaves"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Lychee Pesto Crostini",
+            "ingredients": [
+                "lychee",
+                "butter",
+                "onion",
+                "pesto"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pecan Bulgur Pilaf",
+            "ingredients": [
+                "pecan",
+                "bulgur",
+                "canned goods"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Smoky BBQ Chicken Smoothie",
+            "ingredients": [
+                "bbq sauce",
+                "smoothies"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Kiwi Fries",
+            "ingredients": [
+                "kiwi",
+                "canola oil",
+                "ketchup"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Jicama and Plum Salad with Spicy Lime Dressing",
+            "ingredients": [
+                "plum",
+                "jicama"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Spelt Apricot Crusted Chicken.",
+            "ingredients": [
+                "spelt",
+                "apricot"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pesto Bell Pepper Frittata",
+            "ingredients": [
+                "bell pepper",
+                "vegetable oil",
+                "pesto"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Broccoli Tahini Stir Fry",
+            "ingredients": [
+                "alcohol",
+                "tahini",
+                "vegetable oil",
+                "broccoli"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Steamed Mushroom and Bok Choy Salad with Endive and Kombucha Vinaigrette",
+            "ingredients": [
+                "mushroom",
+                "bok choy",
+                "endive",
+                "kombucha"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Thyme and Yogurt Dip",
+            "ingredients": [
+                "thyme",
+                "yogurt"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Jackfruit Muffin Sandwich with Spicy Radish Slaw and Orange Chutney",
+            "ingredients": [
+                "muffin",
+                "radish",
+                "orange",
+                "jackfruit"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Kale and Rosemary Fritters",
+            "ingredients": [
+                "kale",
+                "vegetable oil",
+                "chia seed",
+                "rosemary"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pan-Seared Halibut with Scallion Beurre Blanc",
+            "ingredients": [
+                "scallion",
+                "halibut",
+                "alcohol"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tempeh and Great Northern Bean Stew",
+            "ingredients": [
+                "chicken broth",
+                "great northern beans",
+                "butter",
+                "tempeh"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Sesame Lentil Biscuits",
+            "ingredients": [
+                "lentil sprouts",
+                "wheat",
+                "sesame seed"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Miso Glazed Frozen Meal with Lemon Kombucha Glaze",
+            "ingredients": [
+                "frozen meals",
+                "miso",
+                "kombucha",
+                "lemon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Breaded Halibut Sandwiches",
+            "ingredients": [
+                "soda",
+                "halibut",
+                "bread"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Caramelized Salmon",
+            "ingredients": [
+                "salmon",
+                "sugar"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watercress and Shallot Salad",
+            "ingredients": [
+                "shallot",
+                "watercress"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Starfruit and Coconut Salad with Spicy Soy Nuts",
+            "ingredients": [
+                "fermented soy sauce",
+                "coconut",
+                "starfruit",
+                "snacks"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Cheesecake",
+            "ingredients": [
+                "cheese",
+                "chickpeas",
+                "milkshake"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Thai Coconut Soup",
+            "ingredients": [
+                "coconut",
+                "shallot"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Avocado Starfruit Salad",
+            "ingredients": [
+                "starfruit",
+                "avocado",
+                "olive oil"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Guava-Glazed Pheasant",
+            "ingredients": [
+                "guava",
+                "pheasant"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Mackerel with Quinoa Salad and Fig Chutney",
+            "ingredients": [
+                "quinoa",
+                "grape",
+                "mackerel",
+                "fig"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pine Nut Crusted Clams with Bay Leaf Chowder",
+            "ingredients": [
+                "clam chowder",
+                "pine nut",
+                "bay leaf"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Dill Pickle Cucumber Salad",
+            "ingredients": [
+                "vegetable oil",
+                "onion",
+                "pickles",
+                "cucumber"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Peach and Prosciutto Salad with Bacon Vinaigrette",
+            "ingredients": [
+                "peach",
+                "fava beans",
+                "bacon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Rhubarb and Watermelon Salad with Spelt Croutons",
+            "ingredients": [
+                "rhubarb",
+                "spelt",
+                "watermelon"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Mango Tangerine Sorbet",
+            "ingredients": [
+                "mango",
+                "tangerine"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Bok Choy Cake",
+            "ingredients": [
+                "bok choy",
+                "cake"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Goose and Mango Curry",
+            "ingredients": [
+                "goose",
+                "mango",
+                "banana",
+                "carrot"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Macadamia Crusted Grapefruit Tart",
+            "ingredients": [
+                "grapefruit",
+                "macadamia"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Ketchup Glazed Donuts",
+            "ingredients": [
+                "ketchup",
+                "corn syrup"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Microwave Dinner Crusted Cake",
+            "ingredients": [
+                "microwave dinners",
+                "cake"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Hummus",
+            "ingredients": [
+                "tahini",
+                "pinto beans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Soybean and Chard Stir Fry",
+            "ingredients": [
+                "herbal tea",
+                "soybeans",
+                "chard"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Guava and Brazil Nut Couscous Salad",
+            "ingredients": [
+                "grapeseed oil",
+                "couscous",
+                "guava",
+                "Brazil nut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Parsnip Fritters with Flaxseed Aioli",
+            "ingredients": [
+                "flaxseed oil",
+                "mayonnaise",
+                "parsnip"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Hungarian-Style Clam Chowder Fritters",
+            "ingredients": [
+                "clam chowder",
+                "shallot",
+                "paprika"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Durian Tuna Tartare with Coconut Salsa",
+            "ingredients": [
+                "durian",
+                "coconut",
+                "tuna"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Peach Crisp with Caramelized Rutabaga",
+            "ingredients": [
+                "brown sugar",
+                "peach",
+                "rutabaga"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Thai Coconut Soup",
+            "ingredients": [
+                "bay leaf",
+                "ginger"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watercress Pesto Salad with Buttermilk Vinaigrette",
+            "ingredients": [
+                "watercress",
+                "buttermilk",
+                "grapeseed oil",
+                "pesto"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Creamy Turmeric Soup",
+            "ingredients": [
+                "milk",
+                "shallot",
+                "watercress",
+                "turmeric"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Honey Glazed Clams",
+            "ingredients": [
+                "bbq sauce",
+                "butter",
+                "clam chowder",
+                "honey"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pickled Beetroot Salad",
+            "ingredients": [
+                "parsley",
+                "beetroot"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tempeh and Apricot Stir Fry",
+            "ingredients": [
+                "corn",
+                "Brazil nut",
+                "tempeh",
+                "apricot"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Tonkatsu with Tomato Soup and Stir-Fried Cod",
+            "ingredients": [
+                "tomato soup",
+                "pork",
+                "cod",
+                "soybeans"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Spicy Date Chutney",
+            "ingredients": [
+                "date",
+                "fermented hot sauce"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Sauerbraten with Mushroom and Raspberry Chutney",
+            "ingredients": [
+                "deli meats",
+                "mushroom",
+                "sauerkraut",
+                "raspberry"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Watermelon and Coffee Granita with Canned Goods Salad",
+            "ingredients": [
+                "watermelon",
+                "canned goods",
+                "coffee"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Spelt Noodle Stir-Fry with Allspice and Vinegar Glaze",
+            "ingredients": [
+                "spelt",
+                "allspice",
+                "instant noodles",
+                "vinegar"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pickle Salsa Dip",
+            "ingredients": [
+                "salsa",
+                "sesame oil",
+                "pickles",
+                "milk"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Amaranth and Coconut Porridge with Ginger and Herbal Tea Glaze",
+            "ingredients": [
+                "coconut",
+                "ginger",
+                "amaranth",
+                "herbal tea"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Edamame and Pumpkin Curry",
+            "ingredients": [
+                "bamboo shoots",
+                "pumpkin",
+                "edamame",
+                "cardamom"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Miso Yogurt Sauce",
+            "ingredients": [
+                "miso",
+                "yogurt"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Corn Fritters with Avocado Aioli",
+            "ingredients": [
+                "avocado oil",
+                "corn",
+                "fruit juice",
+                "hazelnut"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Grilled Clams with Agave Nectar Glaze",
+            "ingredients": [
+                "clams",
+                "agave nectar"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Kidney Bean Cod Cakes with Brownie Crust",
+            "ingredients": [
+                "brownie",
+                "kidney beans",
+                "cod"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Minty Peach Salsa with Chili Crusted Chicken",
+            "ingredients": [
+                "mint",
+                "peach",
+                "chili pepper"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Scallop and Green Pea Fritters with Cheese Sauce",
+            "ingredients": [
+                "scallops",
+                "condensed milk",
+                "cheese",
+                "green peas"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Blackstrap Molasses Cake",
+            "ingredients": [
+                "agave nectar",
+                "molasses"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Sunflower Buckwheat Pancakes",
+            "ingredients": [
+                "buckwheat",
+                "sunflower seed"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Ghee Ketchup Chicken",
+            "ingredients": [
+                "ghee",
+                "ketchup"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pineapple and Watercress Salad with Kombucha Vinaigrette.",
+            "ingredients": [
+                "kombucha",
+                "watercress",
+                "flaxseed",
+                "pineapple"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Chicken and Scallop Pizza Pinwheels",
+            "ingredients": [
+                "chicken",
+                "scallops",
+                "pizza",
+                "deli meats"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Stuffed Eggplant with Crab and Cinnamon Filling",
+            "ingredients": [
+                "cinnamon",
+                "crab",
+                "eggplant"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Kombu-Glazed Shrimp with Miso Aioli and Deli Meat Crostini",
+            "ingredients": [
+                "miso",
+                "shrimp",
+                "kombucha",
+                "deli meats"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Pizza Stuffed Peppers",
+            "ingredients": [
+                "ready-to-eat meals",
+                "pizza"
+            ],
+            "origin:": ""
+        },
+        {
+            "dish_name": "Elderberry and Pea Soup",
+            "ingredients": [
+                "elderberry",
+                "split peas"
+            ],
+            "origin:": ""
+        }
+    ]
+}

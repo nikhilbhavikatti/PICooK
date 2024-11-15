@@ -17,7 +17,7 @@ class DishGenerator:
             device_map="auto")
 
 
-    def generate_dish(self, ingredients, origin = "", max_length=256):
+    def generate_dish(self, ingredients, origin="", max_length=256):
         ingredients_string = ", ".join(ingredients)
         if (origin == ""):
             prompt = f"When having these ingredients: {ingredients_string}. One possible existing dish that we can make could be?"
