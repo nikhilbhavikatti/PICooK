@@ -3,6 +3,7 @@ import argparse
 import random
 
 from picook.config.ingredients_dishes import ingredients, dishes, origins
+from picook.config.utils import DishIngredientMapping
 from picook.image_retrieval.image_retrieval import get_images
 from picook.zero_shot_ingredient_classifier.classifier import ImageValidator
 from picook.dish_generator.dish_generator import DishGenerator
@@ -72,6 +73,7 @@ if __name__ == '__main__':
 
     if args.dishes:
         generator = DishGenerator()
+        mapping = DishIngredientMapping("data/dish_ingredient_mapping.json")
         all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
         for i in range(args.num_dishes):
             num_ingredients = int(random.uniform(args.min_ingredients, args.max_ingredients))
@@ -80,3 +82,5 @@ if __name__ == '__main__':
             dish_description = generator.generate_dish_description(ingredients)
             dish = generator.get_first_sentence(dish_description)
             print(ingredients, dish)
+            mapping.add(dish, ingredients)
+        mapping.save()
