@@ -59,6 +59,8 @@ parser.add_argument('--ingredients',
 
 if __name__ == '__main__':
     args = parser.parse_args()
+
+    # Scrape images of ingredients and dishes
     if args.scrape:
         print("Retrieving images for ingredients")
         for list_of_ingredients in ingredients.values():
@@ -74,15 +76,18 @@ if __name__ == '__main__':
                 get_images(item)
                 time.sleep(1)
     
+    # Validate scraped images using zero-shot classifier
     if args.validate:
         print(f"Validating images for ingredients with top_k={args.top_k}")
         validator = ImageValidator(top_k=args.top_k)
         validator.validate_images("data/ingredients", "data/ingredients/wrong_images", move_wrong_images=args.move_wrong_images)
 
+    # Generate dishes by randomly sampling ingredients
     if args.dishes:
         generator = DishGenerator()
         mapping = DishIngredientMapping("data/dish_ingredient_mapping.json")
-        mapping.set_metadata({"min_ingredients": args.min_ingredients,
+        mapping.set_metadata({"forward_mapping": True,
+                              "min_ingredients": args.min_ingredients,
                               "max_ingredients": args.max_ingredients,
                               "use_origin": args.use_origin})
         all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
@@ -96,15 +101,19 @@ if __name__ == '__main__':
                 origin = ""
                 dish = generator.generate_dish(ingredients)
             print(ingredients, origin, dish)
-            mapping.add(dish, ingredients, origin)
+            mapping.add(dish, ingredients, origin=origin)
         mapping.save()
     
-
+    # Generate ingredients for the given dishes
     if args.ingredients:
         all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
+        all_dishes = [dish for list_of_dishes in dishes.values() for dish in list_of_dishes]
         inverse_generator = InverseDishGenerator(all_ingredients)
-        mapping = DishIngredientMapping("data/dish_ingredient_mapping.json")
-        for list_of_dishes in dishes.values():
-            for dish in list_of_dishes:
-                ingredients = inverse_generator.generate_ingredients(dish, "")
-                print(dish, ingredients)
+        mapping = DishIngredientMapping("dish_ingredient_mapping_inverse.json")
+        mapping.set_metadata({"forward_mapping": False})
+        for dish in all_dishes[:args.num_dishes]:
+            ingredients, ingredients_llm = inverse_generator.generate_ingredients(dish)
+            if len(ingredients) > 0:
+                mapping.add(dish, ingredients, ingredients_llm=ingredients_llm)
+            print(dish, ingredients, ingredients_llm)
+        mapping.save()

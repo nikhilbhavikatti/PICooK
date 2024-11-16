@@ -61,6 +61,7 @@ class InverseDishGenerator:
             device_map="auto")
         
         # to match ingredients with available ingredients
+        self.ingredients = ingredients
         self.tokenizer = transformers.AutoTokenizer.from_pretrained(model_id)
         self.feature_pipeline = transformers.pipeline(
             "feature-extraction",
@@ -71,21 +72,32 @@ class InverseDishGenerator:
 
 
     def __get_mean_embeddings(self, ingredients):
-        embeddings = self.feature_pipeline(ingredients,
+        embeddings = self.feature_pipeline([ingredient.lower() for ingredient in ingredients],
                                            tokenizer=self.tokenizer,
                                            eos_token_id=self.tokenizer.eos_token_id,
                                            return_tensors="pt")
         return torch.vstack([torch.mean(emb, axis=1) for emb in embeddings])
     
 
-    def match_ingredients(self, ingredients):
+    def match_ingredients(self, ingredients, threshold=0.75):
+        output = []
         embeddings = self.__get_mean_embeddings(ingredients)
-        cosine_similarities = torch.nn.functional.cosine_similarity(self.ingredients_embeddings[:, None, :], embeddings[None, :, :], dim=-1)
+        cosine_similarities = torch.nn.functional.cosine_similarity(embeddings[:, None, :], self.ingredients_embeddings[None, :, :], dim=-1)
+        value, idx = torch.max(cosine_similarities, axis=1)
+        print(value, idx)
+        value = list(value.cpu().float().numpy())
+        idx = list(idx.int().cpu().numpy())
+
+        for idx, value in zip(idx, value):
+            if value >= threshold:
+                output.append(self.ingredients[idx])
+        
+        return output
 
 
     def generate_ingredients(self, dish, origin="", max_length=256):
 
-        prompt = f"I would like to cook {dish} at home. Which ingredients do I need to buy?"
+        prompt = f"I would like to cook {dish} at home. Which ingredients do I have to buy?"
 
         # Set context for LLM
         messages = [{"role": "system", "content": "You are a chef who outputs a list of ingredients to cook a dish if asked. You only reply with the most important ingredients and without any additional information to the ingredients. You only respond with a list where each ingredient is separated by a comma. You do not respond with any additional text."},
@@ -106,8 +118,7 @@ class InverseDishGenerator:
             pad_token_id=self.pipeline.tokenizer.eos_token_id
         )[0]["generated_text"][-1]["content"]
 
-        list = out.split(", ")
-        self.match_ingredients(list)
+        llm_ingredients = out.split(", ")
+        ingredients = self.match_ingredients(llm_ingredients)
 
-        return list
-
+        return ingredients, llm_ingredients

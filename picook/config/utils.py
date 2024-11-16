@@ -7,8 +7,8 @@ class DishIngredientMapping():
         self.data = []
         self.metadata = {}
     
-    def add(self, dish, ingredients, origin):
-        self.data.append({"dish_name": dish, "ingredients": ingredients, "origin:": origin})
+    def add(self, dish, ingredients, origin="", ingredients_llm=""):
+        self.data.append({"dish_name": dish, "ingredients": ingredients, "origin:": origin, "ingredients_llm": ingredients_llm})
     
     def get_mapping(self):
         return self.data
