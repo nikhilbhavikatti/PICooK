@@ -25,6 +25,6 @@ class DishIngredientMapping():
     
     def load(self):
         with open(self.path, 'r', encoding='utf8') as f:
-            json = json.load(f)
-            self.data = json["data"]
-            self.metadata = json["metadata"]
+            json_file = json.load(f)
+            self.data = json_file["data"]
+            self.metadata = json_file["metadata"]

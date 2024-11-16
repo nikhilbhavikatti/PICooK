@@ -7,6 +7,7 @@ from picook.config.utils import DishIngredientMapping
 from picook.image_retrieval.image_retrieval import get_images
 from picook.zero_shot_ingredient_classifier.classifier import ImageValidator
 from picook.dish_generator.dish_generator_context import DishGenerator, InverseDishGenerator
+from picook.dataset_generator.dataset_generator import DatasetGenerator
 
 parser = argparse.ArgumentParser(prog='PICooK',
                                  description='Helps you to find a delicious dish based on the ingredients you have at home.',
@@ -55,6 +56,10 @@ parser.add_argument('--ingredients',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Generates ingredients of the given dishes.')
+parser.add_argument('--dataset',
+                    action=argparse.BooleanOptionalAction,
+                    default=False,
+                    help='Generates the dataset by combining the mapping with the images.')
 
 
 if __name__ == '__main__':
@@ -109,7 +114,7 @@ if __name__ == '__main__':
         all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
         all_dishes = [dish for list_of_dishes in dishes.values() for dish in list_of_dishes]
         inverse_generator = InverseDishGenerator(all_ingredients)
-        mapping = DishIngredientMapping("dish_ingredient_mapping_inverse.json")
+        mapping = DishIngredientMapping("data/dish_ingredient_mapping_inverse.json")
         mapping.set_metadata({"forward_mapping": False})
         for dish in all_dishes[:args.num_dishes]:
             ingredients, ingredients_llm = inverse_generator.generate_ingredients(dish)
@@ -117,3 +122,10 @@ if __name__ == '__main__':
                 mapping.add(dish, ingredients, ingredients_llm=ingredients_llm)
             print(dish, ingredients, ingredients_llm)
         mapping.save()
+
+    # Make the dataset
+    if args.dataset:
+        mapping = DishIngredientMapping("data/dish_ingredient_mapping_inverse.json")
+        mapping.load()
+        generator = DatasetGenerator(mapping.get_mapping(), data_dir="data")
+        generator.generate()
