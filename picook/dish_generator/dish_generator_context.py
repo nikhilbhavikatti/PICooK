@@ -51,7 +51,7 @@ class InverseDishGenerator:
     Inverse dish generator that provides system context to the LLM.
     """
 
-    def __init__(self, model_id="meta-llama/Llama-3.2-3B-Instruct", torch_dtype=torch.bfloat16):
+    def __init__(self, ingredients, model_id="meta-llama/Llama-3.2-3B-Instruct", torch_dtype=torch.bfloat16):
         self.model_id = model_id
 
         self.pipeline = transformers.pipeline(
@@ -59,6 +59,28 @@ class InverseDishGenerator:
             model=model_id,
             model_kwargs={"torch_dtype": torch_dtype},
             device_map="auto")
+        
+        # to match ingredients with available ingredients
+        self.tokenizer = transformers.AutoTokenizer.from_pretrained(model_id)
+        self.feature_pipeline = transformers.pipeline(
+            "feature-extraction",
+            model=model_id,
+            torch_dtype=torch_dtype,
+            device_map="auto")
+        self.ingredients_embeddings = self.__get_mean_embeddings(ingredients)
+
+
+    def __get_mean_embeddings(self, ingredients):
+        embeddings = self.feature_pipeline(ingredients,
+                                           tokenizer=self.tokenizer,
+                                           eos_token_id=self.tokenizer.eos_token_id,
+                                           return_tensors="pt")
+        return torch.vstack([torch.mean(emb, axis=1) for emb in embeddings])
+    
+
+    def match_ingredients(self, ingredients):
+        embeddings = self.__get_mean_embeddings(ingredients)
+        cosine_similarities = torch.nn.functional.cosine_similarity(self.ingredients_embeddings[:, None, :], embeddings[None, :, :], dim=-1)
 
 
     def generate_ingredients(self, dish, origin="", max_length=256):
@@ -84,4 +106,8 @@ class InverseDishGenerator:
             pad_token_id=self.pipeline.tokenizer.eos_token_id
         )[0]["generated_text"][-1]["content"]
 
-        return out
+        list = out.split(", ")
+        self.match_ingredients(list)
+
+        return list
+

@@ -101,7 +101,8 @@ if __name__ == '__main__':
     
 
     if args.ingredients:
-        inverse_generator = InverseDishGenerator()
+        all_ingredients = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
+        inverse_generator = InverseDishGenerator(all_ingredients)
         mapping = DishIngredientMapping("data/dish_ingredient_mapping.json")
         for list_of_dishes in dishes.values():
             for dish in list_of_dishes:
