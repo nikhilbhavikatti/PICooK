@@ -1,0 +1,3894 @@
+{
+    "metadata": {},
+    "data": [
+        {
+            "dish_name": "Fried Rice",
+            "ingredients": [
+                "coconut oil",
+                "rice",
+                "onion",
+                "garlic",
+                "soy sauce",
+                "ginger",
+                "peas",
+                "carrot"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Cooking oil",
+                "rice",
+                "eggs",
+                "onions",
+                "garlic",
+                "soy sauce",
+                "ginger",
+                "peas",
+                "carrots"
+            ]
+        },
+        {
+            "dish_name": "Spring Rolls",
+            "ingredients": [
+                "rice",
+                "vegetable soup",
+                "shrimp",
+                "carrot",
+                "lentil sprouts",
+                "cabbage",
+                "soy sauce",
+                "vegetable oil",
+                "garlic",
+                "ginger"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice noodles",
+                "vegetables",
+                "shrimp",
+                "carrots",
+                "bean sprouts",
+                "cabbage",
+                "soy sauce",
+                "vegetable oil",
+                "garlic",
+                "ginger"
+            ]
+        },
+        {
+            "dish_name": "Dosa",
+            "ingredients": [
+                "rice",
+                "lentils",
+                "yogurt",
+                "ginger",
+                "chips"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice",
+                "lentils",
+                "urad dal",
+                "fenugreek seeds",
+                "yeast",
+                "salt",
+                "yogurt",
+                "ginger",
+                "chilies",
+                "asafoetida"
+            ]
+        },
+        {
+            "dish_name": "Samosa",
+            "ingredients": [
+                "wheat",
+                "potato",
+                "onion",
+                "peas",
+                "spelt",
+                "ghee",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Wheat flour",
+                "potatoes",
+                "onions",
+                "peas",
+                "spices",
+                "ghee",
+                "water",
+                "oil"
+            ]
+        },
+        {
+            "dish_name": "Teriyaki Chicken",
+            "ingredients": [
+                "chicken broth",
+                "soy sauce",
+                "brown sugar",
+                "garlic",
+                "ginger",
+                "sesame oil",
+                "green beans"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken breasts",
+                "soy sauce",
+                "brown sugar",
+                "garlic",
+                "ginger",
+                "sesame oil",
+                "green onions"
+            ]
+        },
+        {
+            "dish_name": "Gyoza",
+            "ingredients": [
+                "cabbage",
+                "green beans",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "sesame oil",
+                "flaxseed"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Ground pork",
+                "cabbage",
+                "green onions",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "sesame oil",
+                "flour",
+                "eggs"
+            ]
+        },
+        {
+            "dish_name": "Tempura",
+            "ingredients": [
+                "flaxseed",
+                "watermelon",
+                "allspice",
+                "corn syrup",
+                "brown sugar",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Flour",
+                "eggs",
+                "ice water",
+                "all-purpose flour",
+                "cornstarch",
+                "salt",
+                "granulated sugar",
+                "vegetable oil",
+                "tempura bits",
+                "tempura batter mix",
+                "tempura seasoning"
+            ]
+        },
+        {
+            "dish_name": "Green Curry",
+            "ingredients": [
+                "coconut water",
+                "green peas",
+                "hot sauce",
+                "lime",
+                "thyme",
+                "bell pepper",
+                "bamboo shoots",
+                "chicken broth"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "coconut milk",
+                "green curry paste",
+                "fish sauce",
+                "lemongrass",
+                "galangal",
+                "lime leaves",
+                "Thai basil",
+                "bell peppers",
+                "bamboo shoots",
+                "chicken or shrimp"
+            ]
+        },
+        {
+            "dish_name": "Kimchi",
+            "ingredients": [
+                "garlic",
+                "hot sauce",
+                "scallion",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Napa cabbage",
+                "Korean chili flakes",
+                "garlic",
+                "fish sauce",
+                "Korean chili paste",
+                "scallions",
+                "salt",
+                "water"
+            ]
+        },
+        {
+            "dish_name": "Chana Masala",
+            "ingredients": [
+                "onion",
+                "garlic",
+                "ginger",
+                "cumin",
+                "tomato",
+                "cumin",
+                "coriander leaves",
+                "turmeric",
+                "black pepper",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Onions",
+                "garlic",
+                "ginger",
+                "canna beans",
+                "tomatoes",
+                "garam masala",
+                "cumin powder",
+                "coriander powder",
+                "turmeric",
+                "red chili powder",
+                "salt",
+                "vegetable oil"
+            ]
+        },
+        {
+            "dish_name": "Pho",
+            "ingredients": [
+                "rice",
+                "beef broth",
+                "beef",
+                "onion",
+                "ginger",
+                "garlic",
+                "hot sauce",
+                "soy sauce",
+                "sugar",
+                "starfruit",
+                "cinnamon",
+                "cardamom",
+                "lime",
+                "catfish",
+                "lentil sprouts",
+                "lime"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice noodles",
+                "beef bones",
+                "beef",
+                "onions",
+                "ginger",
+                "garlic",
+                "fish sauce",
+                "soy sauce",
+                "sugar",
+                "star anise",
+                "cinnamon",
+                "cloves",
+                "black cardamom",
+                "lime juice",
+                "fish balls",
+                "bean sprouts",
+                "lime wedges"
+            ]
+        },
+        {
+            "dish_name": "Pad Thai",
+            "ingredients": [
+                "rice",
+                "shrimp",
+                "tangerine",
+                "hot sauce",
+                "pumpkin seed",
+                "vegetable oil",
+                "lentil sprouts",
+                "peanut oil",
+                "eggplant",
+                "lime",
+                "scallion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice noodles",
+                "shrimp",
+                "tamarind paste",
+                "fish sauce",
+                "palm sugar",
+                "vegetable oil",
+                "bean sprouts",
+                "peanuts",
+                "egg",
+                "lime juice",
+                "scallions"
+            ]
+        },
+        {
+            "dish_name": "Miso Soup",
+            "ingredients": [
+                "miso soup",
+                "miso soup",
+                "scallion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Dashi broth",
+                "miso paste",
+                "wakame seaweed",
+                "scallions",
+                "tofu"
+            ]
+        },
+        {
+            "dish_name": "Dal Makhani",
+            "ingredients": [
+                "black beans",
+                "kidney beans",
+                "onion",
+                "garlic",
+                "ginger",
+                "tomato soup",
+                "butter",
+                "ghee",
+                "cream",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "black lentils",
+                "kidney beans",
+                "onions",
+                "garlic",
+                "ginger",
+                "tomato puree",
+                "butter",
+                "ghee",
+                "cream",
+                "cumin",
+                "coriander",
+                "cayenne pepper",
+                "salt",
+                "black pepper",
+                "amchur powder"
+            ]
+        },
+        {
+            "dish_name": "Baos",
+            "ingredients": [
+                "bread",
+                "sugar",
+                "bay leaf",
+                "Brazil nut",
+                "eggplant",
+                "milk",
+                "sesame seed"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bread flour",
+                "yeast",
+                "salt",
+                "sugar",
+                "warm water",
+                "active dry yeast",
+                "baking powder",
+                "egg",
+                "milk",
+                "sesame seeds"
+            ]
+        },
+        {
+            "dish_name": "Congee",
+            "ingredients": [
+                "rice",
+                "water",
+                "ginger",
+                "scallion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice",
+                "water",
+                "ginger",
+                "scallions"
+            ]
+        },
+        {
+            "dish_name": "Mapo Tofu",
+            "ingredients": [
+                "fermented soy sauce",
+                "garlic",
+                "ginger",
+                "chili pepper",
+                "soy sauce",
+                "sesame oil",
+                "scallion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "tofu",
+                "ground pork",
+                "Sichuan peppercorns",
+                "fermented bean paste",
+                "garlic",
+                "ginger",
+                "chili peppers",
+                "soy sauce",
+                "Shaoxing wine",
+                "sesame oil",
+                "scallions"
+            ]
+        },
+        {
+            "dish_name": "Yellow Curry",
+            "ingredients": [
+                "coconut water",
+                "hot sauce",
+                "lime",
+                "pumpkin seed",
+                "bell pepper",
+                "bamboo shoots",
+                "thyme",
+                "onion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "coconut milk",
+                "yellow curry paste",
+                "fish sauce",
+                "lime juice",
+                "palm sugar",
+                "red bell pepper",
+                "bamboo shoots",
+                "Thai basil",
+                "onions"
+            ]
+        },
+        {
+            "dish_name": "Vindaloo",
+            "ingredients": [
+                "chicken",
+                "onion",
+                "garlic",
+                "ginger",
+                "vinegar",
+                "tomato soup",
+                "black pepper",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "black pepper",
+                "ghee",
+                "lemon"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken breast",
+                "onions",
+                "garlic",
+                "ginger",
+                "vinegar",
+                "tomato puree",
+                "red chili powder",
+                "cumin powder",
+                "coriander powder",
+                "cayenne pepper",
+                "salt",
+                "black pepper",
+                "ghee",
+                "lemon juice"
+            ]
+        },
+        {
+            "dish_name": "Hainanese Chicken Rice",
+            "ingredients": [
+                "chicken",
+                "rice",
+                "ginger",
+                "garlic",
+                "pinto beans",
+                "chicken broth",
+                "coconut water",
+                "black pepper",
+                "chili pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken",
+                "rice",
+                "ginger",
+                "garlic",
+                "pandan leaves",
+                "chicken stock",
+                "coconut milk",
+                "salt",
+                "black pepper",
+                "chili sauce"
+            ]
+        },
+        {
+            "dish_name": "Banh Mi",
+            "ingredients": [
+                "bread",
+                "pickles",
+                "pickles",
+                "cilantro",
+                "chili pepper",
+                "mayonnaise",
+                "pork",
+                "hot sauce",
+                "lime"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bread",
+                "pickled carrots",
+                "pickled daikon",
+                "cilantro",
+                "chili sauce",
+                "mayonnaise",
+                "pork",
+                "Vietnamese chili peppers",
+                "fish sauce",
+                "lime juice"
+            ]
+        },
+        {
+            "dish_name": "Bibimbap",
+            "ingredients": [
+                "rice",
+                "vegetable soup",
+                "beef",
+                "soy sauce",
+                "sesame oil",
+                "garlic",
+                "ginger",
+                "eggplant"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice",
+                "vegetables",
+                "beef",
+                "gochujang",
+                "soy sauce",
+                "sesame oil",
+                "garlic",
+                "ginger",
+                "egg"
+            ]
+        },
+        {
+            "dish_name": "Adobo",
+            "ingredients": [
+                "chicken",
+                "vinegar",
+                "garlic",
+                "bay leaf",
+                "black pepper",
+                "olive oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken",
+                "vinegar",
+                "garlic",
+                "bay leaves",
+                "black pepper",
+                "salt",
+                "olive oil"
+            ]
+        },
+        {
+            "dish_name": "Sisig",
+            "ingredients": [
+                "pork",
+                "onion",
+                "chips",
+                "vinegar",
+                "garlic",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "pork jowl",
+                "onions",
+                "chilies",
+                "vinegar",
+                "calamansi",
+                "garlic",
+                "salt",
+                "black pepper",
+                "patis"
+            ]
+        },
+        {
+            "dish_name": "Chicken Katsu",
+            "ingredients": [
+                "chicken",
+                "allspice",
+                "pancake",
+                "vegetable oil",
+                "black pepper",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken breast",
+                "all-purpose flour",
+                "eggs",
+                "panko breadcrumbs",
+                "vegetable oil",
+                "tonkatsu sauce",
+                "Worcestershire sauce",
+                "salt",
+                "black pepper",
+                "Japanese breadcrumbs",
+                "vegetable oil"
+            ]
+        },
+        {
+            "dish_name": "Sichuan Hotpot",
+            "ingredients": [
+                "beef",
+                "vegetable soup",
+                "chili pepper",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "vinegar"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "beef",
+                "vegetables",
+                "Sichuan peppercorns",
+                "chili oil",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "vinegar",
+                "Sichuan hot pot broth"
+            ]
+        },
+        {
+            "dish_name": "Peking Duck",
+            "ingredients": [
+                "pork",
+                "duck",
+                "soy sauce",
+                "rice",
+                "scallion",
+                "ginger",
+                "garlic",
+                "sugar",
+                "eggplant",
+                "sesame oil",
+                "pancake"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Pork",
+                "duck",
+                "five-spice powder",
+                "soy sauce",
+                "rice vinegar",
+                "scallions",
+                "ginger",
+                "garlic",
+                "sugar",
+                "egg yolks",
+                "sesame oil",
+                "pancakes"
+            ]
+        },
+        {
+            "dish_name": "Chicken Tikka Masala",
+            "ingredients": [
+                "yogurt",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "garlic",
+                "ginger",
+                "tomato soup",
+                "onion",
+                "butter",
+                "cream cheese",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Boneless chicken breast",
+                "yogurt",
+                "garam masala",
+                "cumin",
+                "coriander",
+                "cayenne pepper",
+                "garlic",
+                "ginger",
+                "tomato paste",
+                "onions",
+                "butter",
+                "heavy cream",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Satay",
+            "ingredients": [
+                "chicken",
+                "coconut water",
+                "peanut oil",
+                "bamboo shoots",
+                "coriander leaves",
+                "cumin",
+                "chili pepper",
+                "lime",
+                "hot sauce",
+                "brown sugar",
+                "rice",
+                "peanut oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken breast",
+                "coconut milk",
+                "peanut sauce",
+                "bamboo skewers",
+                "coriander",
+                "cumin",
+                "chili flakes",
+                "lime juice",
+                "fish sauce",
+                "brown sugar",
+                "rice noodles",
+                "peanuts"
+            ]
+        },
+        {
+            "dish_name": "Nasi Goreng",
+            "ingredients": [
+                "rice",
+                "vegetable oil",
+                "onion",
+                "garlic",
+                "shallot",
+                "chicken",
+                "soy sauce",
+                "black pepper",
+                "chili pepper",
+                "scallion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice",
+                "vegetable oil",
+                "onion",
+                "garlic",
+                "shallots",
+                "eggs",
+                "chicken breast",
+                "soy sauce",
+                "kecap manis",
+                "salt",
+                "black pepper",
+                "chili flakes",
+                "scallions"
+            ]
+        },
+        {
+            "dish_name": "Tom Yum Soup",
+            "ingredients": [
+                "chicken",
+                "lime",
+                "hot sauce",
+                "lime",
+                "shrimp",
+                "mushroom",
+                "tomato",
+                "vegetable oil",
+                "chips",
+                "garlic"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken",
+                "lemongrass",
+                "galangal",
+                "lime leaves",
+                "fish sauce",
+                "lime juice",
+                "shrimp",
+                "mushrooms",
+                "tomatoes",
+                "vegetable oil",
+                "chilies",
+                "garlic"
+            ]
+        },
+        {
+            "dish_name": "Thali",
+            "ingredients": [
+                "lentils",
+                "onion",
+                "ginger",
+                "garlic",
+                "cumin",
+                "coriander leaves",
+                "turmeric",
+                "black pepper",
+                "ghee",
+                "yogurt"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Basmati rice",
+                "lentils",
+                "onions",
+                "ginger",
+                "garlic",
+                "cumin seeds",
+                "coriander leaves",
+                "turmeric",
+                "red chili powder",
+                "ghee",
+                "yogurt"
+            ]
+        },
+        {
+            "dish_name": "Palak Paneer",
+            "ingredients": [
+                "spinach",
+                "garlic",
+                "ginger",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "lemon",
+                "butter",
+                "cream cheese"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Spinach",
+                "paneer",
+                "garlic",
+                "ginger",
+                "cumin",
+                "coriander",
+                "garam masala",
+                "cayenne pepper",
+                "lemon juice",
+                "butter",
+                "heavy cream"
+            ]
+        },
+        {
+            "dish_name": "Fish Curry",
+            "ingredients": [
+                "catfish",
+                "coconut water",
+                "onion",
+                "garlic",
+                "ginger",
+                "turmeric",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "hot sauce",
+                "catfish",
+                "potato",
+                "tomato"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Fish",
+                "coconut milk",
+                "curry powder",
+                "onions",
+                "garlic",
+                "ginger",
+                "turmeric",
+                "cumin",
+                "coriander",
+                "cayenne pepper",
+                "salt",
+                "fish sauce",
+                "fish oil",
+                "potatoes",
+                "tomatoes"
+            ]
+        },
+        {
+            "dish_name": "Aloo Gobi",
+            "ingredients": [
+                "potato",
+                "cauliflower",
+                "onion",
+                "garlic",
+                "ginger",
+                "turmeric",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "ghee",
+                "black pepper",
+                "tomato"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Potatoes",
+                "cauliflower",
+                "onions",
+                "garlic",
+                "ginger",
+                "turmeric",
+                "cumin",
+                "coriander",
+                "cayenne pepper",
+                "ghee",
+                "salt",
+                "black pepper",
+                "tomato"
+            ]
+        },
+        {
+            "dish_name": "Lumpia",
+            "ingredients": [
+                "vegetable soup",
+                "onion",
+                "garlic",
+                "flaxseed",
+                "water",
+                "black pepper",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Ground pork",
+                "vegetables",
+                "onion",
+                "garlic",
+                "eggs",
+                "flour",
+                "water",
+                "salt",
+                "black pepper",
+                "vegetable oil"
+            ]
+        },
+        {
+            "dish_name": "Okonomiyaki",
+            "ingredients": [
+                "butter",
+                "cabbage",
+                "pork",
+                "mayonnaise"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Batter",
+                "cabbage",
+                "pork",
+                "seafood",
+                "okonomiyaki sauce",
+                "mayonnaise",
+                "bonito flakes"
+            ]
+        },
+        {
+            "dish_name": "Beef Rendang",
+            "ingredients": [
+                "beef",
+                "coconut water",
+                "shallot",
+                "garlic",
+                "chips",
+                "coriander leaves",
+                "cumin",
+                "turmeric",
+                "cinnamon",
+                "cardamom",
+                "black pepper",
+                "tangerine"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef",
+                "coconut milk",
+                "galangal",
+                "lemongrass",
+                "shallots",
+                "garlic",
+                "chilies",
+                "coriander",
+                "cumin",
+                "turmeric",
+                "cinnamon",
+                "cardamom",
+                "salt",
+                "black pepper",
+                "tamarind paste"
+            ]
+        },
+        {
+            "dish_name": "Roti Canai",
+            "ingredients": [
+                "allspice",
+                "sugar",
+                "water",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "All-purpose flour",
+                "yeast",
+                "salt",
+                "sugar",
+                "water",
+                "vegetable oil",
+                "eggs"
+            ]
+        },
+        {
+            "dish_name": "Laksa",
+            "ingredients": [
+                "rice",
+                "chicken",
+                "coconut water",
+                "tangerine",
+                "shrimp",
+                "onion",
+                "garlic",
+                "chips",
+                "hot sauce",
+                "lime",
+                "lentil sprouts"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice noodles",
+                "chicken",
+                "coconut milk",
+                "tamarind paste",
+                "shrimp",
+                "lemongrass",
+                "galangal",
+                "onions",
+                "garlic",
+                "chilies",
+                "fish sauce",
+                "lime juice",
+                "bean sprouts"
+            ]
+        },
+        {
+            "dish_name": "Ramen",
+            "ingredients": [
+                "pork",
+                "chicken broth",
+                "vegetable soup",
+                "soy sauce",
+                "salsa",
+                "sugar",
+                "sesame oil",
+                "garlic",
+                "ginger",
+                "green beans"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Noodles",
+                "Pork bones",
+                "Chicken bones",
+                "Vegetables",
+                "Soy sauce",
+                "Sake",
+                "Mirin",
+                "Sugar",
+                "Sesame oil",
+                "Garlic",
+                "Ginger",
+                "Green onions"
+            ]
+        },
+        {
+            "dish_name": "Nasi Lemak",
+            "ingredients": [
+                "coconut water",
+                "pinto beans",
+                "rice",
+                "chicken",
+                "shrimp",
+                "shallot",
+                "garlic",
+                "tangerine"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "coconut milk",
+                "pandan leaves",
+                "rice",
+                "chicken",
+                "shrimp",
+                "anchovies",
+                "galangal",
+                "shallots",
+                "garlic",
+                "tamarind paste",
+                "kecap manis"
+            ]
+        },
+        {
+            "dish_name": "Massaman Curry",
+            "ingredients": [
+                "beef",
+                "onion",
+                "garlic",
+                "ginger",
+                "coconut water",
+                "hot sauce",
+                "pumpkin seed",
+                "potato",
+                "peanut oil",
+                "shallot"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef",
+                "onions",
+                "garlic",
+                "ginger",
+                "Massaman curry paste",
+                "coconut milk",
+                "fish sauce",
+                "palm sugar",
+                "potatoes",
+                "peanuts",
+                "shallots",
+                "lemongrass",
+                "kaffir lime leaves"
+            ]
+        },
+        {
+            "dish_name": "Sushi",
+            "ingredients": [
+                "salsa",
+                "salmon",
+                "cucumber",
+                "avocado",
+                "rice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Sushi rice",
+                "nori sheets",
+                "salmon",
+                "cucumber",
+                "avocado",
+                "rice vinegar"
+            ]
+        },
+        {
+            "dish_name": "Gong Bao Chicken",
+            "ingredients": [
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "scallion",
+                "chicken",
+                "fermented soy sauce",
+                "chili pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Sichuan peppercorns",
+                "soy sauce",
+                "Shaoxing wine",
+                "garlic",
+                "ginger",
+                "Sichuan peppercorn oil",
+                "scallions",
+                "chicken breast",
+                "fermented bean paste",
+                "chili peppers"
+            ]
+        },
+        {
+            "dish_name": "Biryani",
+            "ingredients": [
+                "onion",
+                "ginger",
+                "garlic",
+                "cumin",
+                "coriander leaves",
+                "cinnamon",
+                "cardamom",
+                "bay leaf",
+                "lamb",
+                "tomato soup",
+                "ghee"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Basmati rice",
+                "onions",
+                "ginger",
+                "garlic",
+                "cumin seeds",
+                "coriander seeds",
+                "cinnamon sticks",
+                "cardamom pods",
+                "cloves",
+                "bay leaves",
+                "lamb or chicken",
+                "tomato puree",
+                "ghee or vegetable oil",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Paneer Tikka",
+            "ingredients": [
+                "yogurt",
+                "lemon",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "garlic",
+                "ginger",
+                "tomato soup",
+                "vegetable oil",
+                "cilantro"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Yogurt",
+                "lemon juice",
+                "garam masala",
+                "cumin powder",
+                "coriander powder",
+                "cayenne pepper",
+                "salt",
+                "garlic",
+                "ginger",
+                "tomato puree",
+                "vegetable oil",
+                "paneer",
+                "cilantro"
+            ]
+        },
+        {
+            "dish_name": "Tandoori Chicken",
+            "ingredients": [
+                "yogurt",
+                "lemon",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "ghee",
+                "chicken",
+                "garlic",
+                "ginger",
+                "cumin",
+                "coriander leaves"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Yogurt",
+                "lemon juice",
+                "garam masala",
+                "cumin powder",
+                "coriander powder",
+                "cayenne pepper",
+                "ghee",
+                "chicken",
+                "salt",
+                "garlic",
+                "ginger",
+                "cumin seeds",
+                "coriander seeds"
+            ]
+        },
+        {
+            "dish_name": "Pho Ga",
+            "ingredients": [
+                "chicken broth",
+                "beef broth",
+                "onion",
+                "ginger",
+                "garlic",
+                "hot sauce",
+                "soy sauce",
+                "sugar",
+                "starfruit",
+                "cinnamon",
+                "cardamom",
+                "rice",
+                "chicken",
+                "beef",
+                "lime",
+                "catfish",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken bones",
+                "beef bones",
+                "onions",
+                "ginger",
+                "garlic",
+                "fish sauce",
+                "soy sauce",
+                "sugar",
+                "star anise",
+                "cinnamon",
+                "cloves",
+                "black cardamom",
+                "rice noodles",
+                "chicken breast",
+                "beef slices",
+                "lime juice",
+                "fish oil",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Jjajangmyeon",
+            "ingredients": [
+                "pork",
+                "vegetable soup",
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "sesame oil",
+                "sugar",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Pork",
+                "vegetables",
+                "noodles",
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "sesame oil",
+                "sugar",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Green Papaya Salad",
+            "ingredients": [
+                "green peas",
+                "chips",
+                "peanut oil",
+                "tomato",
+                "hot sauce",
+                "lime",
+                "fermented soy sauce",
+                "pumpkin seed",
+                "garlic",
+                "shallot",
+                "mint"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Green papaya",
+                "chilies",
+                "peanuts",
+                "tomatoes",
+                "fish sauce",
+                "lime juice",
+                "fermented fish sauce",
+                "palm sugar",
+                "garlic",
+                "shallots",
+                "mint"
+            ]
+        },
+        {
+            "dish_name": "Fried Tofu",
+            "ingredients": [
+                "corn syrup",
+                "flaxseed",
+                "pancake",
+                "vegetable oil",
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "sesame oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Tofu",
+                "cornstarch",
+                "flour",
+                "eggs",
+                "panko breadcrumbs",
+                "vegetable oil",
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "sesame oil"
+            ]
+        },
+        {
+            "dish_name": "Tamago Sushi",
+            "ingredients": [
+                "salsa",
+                "eggplant",
+                "sugar",
+                "rice",
+                "water",
+                "sesame oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Sushi rice",
+                "nori",
+                "egg",
+                "salt",
+                "sugar",
+                "rice vinegar",
+                "water",
+                "sesame oil"
+            ]
+        },
+        {
+            "dish_name": "Baigan Bharta",
+            "ingredients": [
+                "potato",
+                "onion",
+                "garlic",
+                "tomato",
+                "ginger",
+                "redcurrant",
+                "cumin",
+                "coriander leaves"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Potatoes",
+                "onions",
+                "garlic",
+                "tomatoes",
+                "ginger",
+                "red chili",
+                "garam masala",
+                "cumin seeds",
+                "coriander leaves",
+                "oil"
+            ]
+        },
+        {
+            "dish_name": "Shrimp Laksa",
+            "ingredients": [
+                "shrimp",
+                "coconut water",
+                "chicken broth",
+                "shallot",
+                "garlic",
+                "chips",
+                "shrimp",
+                "hot sauce",
+                "lime",
+                "coriander leaves",
+                "cumin",
+                "turmeric",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Shrimp",
+                "laksa noodles",
+                "coconut milk",
+                "chicken or vegetable stock",
+                "lemongrass",
+                "galangal",
+                "shallots",
+                "garlic",
+                "chilies",
+                "shrimp paste",
+                "fish sauce",
+                "lime juice",
+                "coriander",
+                "cumin",
+                "turmeric",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Char Kway Teow",
+            "ingredients": [
+                "rice",
+                "vegetable oil",
+                "shallot",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "oats",
+                "sugar",
+                "hot sauce",
+                "black pepper",
+                "lentil sprouts",
+                "scallion"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Prawns",
+                "rice noodles",
+                "vegetable oil",
+                "shallots",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "oyster sauce",
+                "sugar",
+                "fish sauce",
+                "salt",
+                "black pepper",
+                "bean sprouts",
+                "scallions"
+            ]
+        },
+        {
+            "dish_name": "Kanom Jeen",
+            "ingredients": [
+                "rice",
+                "chicken broth",
+                "shallot",
+                "chips",
+                "hot sauce",
+                "lime",
+                "pumpkin seed",
+                "garlic",
+                "shallot"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice noodles",
+                "chicken or pork",
+                "shallots",
+                "lemongrass",
+                "chilies",
+                "fish sauce",
+                "lime juice",
+                "palm sugar",
+                "garlic",
+                "shallot oil"
+            ]
+        },
+        {
+            "dish_name": "Noodle Soup",
+            "ingredients": [
+                "rice",
+                "chicken broth",
+                "onion",
+                "garlic",
+                "carrot",
+                "celery",
+                "soy sauce",
+                "ginger",
+                "green beans"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice noodles",
+                "chicken or vegetable broth",
+                "onions",
+                "garlic",
+                "carrots",
+                "celery",
+                "soy sauce",
+                "ginger",
+                "green onions"
+            ]
+        },
+        {
+            "dish_name": "Mongolian Beef",
+            "ingredients": [
+                "beef broth",
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "green beans",
+                "sesame oil",
+                "sugar",
+                "beef broth",
+                "corn syrup"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef (sirloin or ribeye)",
+                "soy sauce",
+                "garlic",
+                "ginger",
+                "green onions",
+                "sesame oil",
+                "sugar",
+                "beef broth",
+                "cornstarch"
+            ]
+        },
+        {
+            "dish_name": "Salmon Teriyaki",
+            "ingredients": [
+                "salmon",
+                "teriyaki sauce",
+                "soy sauce",
+                "brown sugar",
+                "garlic",
+                "ginger",
+                "sesame oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Salmon fillets",
+                "teriyaki sauce",
+                "soy sauce",
+                "brown sugar",
+                "garlic",
+                "ginger",
+                "sesame oil"
+            ]
+        },
+        {
+            "dish_name": "Spicy Beef Salad",
+            "ingredients": [
+                "beef",
+                "lettuce",
+                "tomato",
+                "redcurrant",
+                "cilantro",
+                "lime",
+                "olive oil",
+                "garlic",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef",
+                "lettuce",
+                "tomatoes",
+                "red onion",
+                "jalapeno",
+                "cilantro",
+                "lime juice",
+                "olive oil",
+                "garlic",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Kare Kare",
+            "ingredients": [
+                "peanut oil",
+                "tangerine",
+                "shrimp",
+                "onion",
+                "garlic",
+                "ginger",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "peanuts",
+                "tamarind paste",
+                "ground rice flour",
+                "shrimp paste",
+                "onions",
+                "garlic",
+                "ginger",
+                "patis",
+                "calamansi",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Green Mango Salad",
+            "ingredients": [
+                "green peas",
+                "redcurrant",
+                "cilantro",
+                "lime"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Green mango",
+                "red onion",
+                "cilantro",
+                "jalapeño",
+                "lime juice",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Amok Trey",
+            "ingredients": [
+                "coconut water",
+                "chips",
+                "garlic",
+                "hot sauce",
+                "lime",
+                "shallot"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Fish (such as cod or tilapia)",
+                "coconut milk",
+                "lemongrass",
+                "galangal",
+                "chilies",
+                "garlic",
+                "fish sauce",
+                "lime juice",
+                "shallots"
+            ]
+        },
+        {
+            "dish_name": "Javanese Gado-Gado",
+            "ingredients": [
+                "potato",
+                "cabbage",
+                "carrot",
+                "lentil sprouts",
+                "tempeh",
+                "peanut oil",
+                "tangerine",
+                "pumpkin seed",
+                "soy sauce",
+                "ginger",
+                "garlic"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Potatoes",
+                "cabbage",
+                "carrots",
+                "bean sprouts",
+                "tofu",
+                "tempeh",
+                "peanuts",
+                "fried onions",
+                "tamarind paste",
+                "palm sugar",
+                "soy sauce",
+                "ginger",
+                "garlic"
+            ]
+        },
+        {
+            "dish_name": "Rendang Ayam",
+            "ingredients": [
+                "chicken",
+                "coconut water",
+                "coriander leaves",
+                "cumin",
+                "turmeric",
+                "cinnamon",
+                "cumin",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "chicken",
+                "coconut milk",
+                "galangal",
+                "lemongrass",
+                "kaffir lime leaves",
+                "coriander",
+                "cumin",
+                "turmeric",
+                "cinnamon",
+                "cayenne pepper",
+                "salt",
+                "black pepper",
+                "galangal paste",
+                "anchovy paste"
+            ]
+        },
+        {
+            "dish_name": "Yakiniku Donburi",
+            "ingredients": [
+                "beef",
+                "onion",
+                "garlic",
+                "soy sauce",
+                "salsa",
+                "sugar",
+                "rice",
+                "sesame oil",
+                "sesame seed"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef",
+                "onions",
+                "garlic",
+                "soy sauce",
+                "sake",
+                "mirin",
+                "sugar",
+                "rice",
+                "sesame oil",
+                "sesame seeds"
+            ]
+        },
+        {
+            "dish_name": "Bulalo",
+            "ingredients": [
+                "beef broth",
+                "onion",
+                "garlic",
+                "ginger",
+                "bay leaf",
+                "vinegar",
+                "beef",
+                "potato",
+                "eggplant",
+                "green beans",
+                "bok choy",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "beef bones",
+                "onions",
+                "garlic",
+                "ginger",
+                "peppercorns",
+                "bay leaves",
+                "rock salt",
+                "vinegar",
+                "beef shank",
+                "potatoes",
+                "eggplant",
+                "green onions",
+                "bok choy",
+                "patis",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Bebek Goreng",
+            "ingredients": [
+                "chicken",
+                "flaxseed",
+                "vegetable oil",
+                "onion",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "black pepper",
+                "corn syrup",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken breast",
+                "eggs",
+                "flour",
+                "vegetable oil",
+                "onions",
+                "garlic",
+                "ginger",
+                "soy sauce",
+                "kecap manis",
+                "salt",
+                "black pepper",
+                "cornstarch",
+                "water"
+            ]
+        },
+        {
+            "dish_name": "Nasi Uduk",
+            "ingredients": [
+                "chicken",
+                "coconut water",
+                "rice",
+                "shallot",
+                "chips",
+                "tangerine",
+                "hot sauce",
+                "coriander leaves",
+                "cumin",
+                "sugar",
+                "pinto beans",
+                "coconut oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken",
+                "coconut milk",
+                "rice",
+                "lemongrass",
+                "galangal",
+                "shallots",
+                "chilies",
+                "tamarind paste",
+                "fish sauce",
+                "kecap manis",
+                "coriander",
+                "cumin",
+                "salt",
+                "sugar",
+                "pandan leaves",
+                "coconut oil"
+            ]
+        },
+        {
+            "dish_name": "Laap",
+            "ingredients": [
+                "chips",
+                "lime",
+                "hot sauce",
+                "lime",
+                "pumpkin seed",
+                "shallot",
+                "coriander leaves",
+                "rice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Ground pork",
+                "lemongrass",
+                "galangal",
+                "chilies",
+                "lime leaves",
+                "fish sauce",
+                "lime juice",
+                "palm sugar",
+                "shallots",
+                "coriander",
+                "rice"
+            ]
+        },
+        {
+            "dish_name": "Tokwa’t Baboy",
+            "ingredients": [
+                "pork",
+                "garlic",
+                "onion",
+                "vinegar",
+                "hot sauce",
+                "black pepper",
+                "bay leaf",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "tofu",
+                "pork",
+                "garlic",
+                "onions",
+                "vinegar",
+                "fish sauce",
+                "salt",
+                "black pepper",
+                "bay leaves",
+                "patis",
+                "water"
+            ]
+        },
+        {
+            "dish_name": "Gising Gising",
+            "ingredients": [
+                "pork",
+                "vegetable soup",
+                "garlic",
+                "onion",
+                "ginger",
+                "chili pepper",
+                "black pepper",
+                "coconut oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Pork",
+                "vegetables",
+                "garlic",
+                "onions",
+                "ginger",
+                "chili peppers",
+                "salt",
+                "black pepper",
+                "cooking oil"
+            ]
+        },
+        {
+            "dish_name": "Khichdi",
+            "ingredients": [
+                "rice",
+                "lentils",
+                "onion",
+                "ginger",
+                "garlic",
+                "cumin",
+                "turmeric",
+                "coriander leaves",
+                "ghee"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice",
+                "lentils",
+                "onions",
+                "ginger",
+                "garlic",
+                "cumin seeds",
+                "turmeric",
+                "coriander powder",
+                "ghee",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Agedashi Tofu",
+            "ingredients": [
+                "soy sauce",
+                "vegetable oil",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Tofu",
+                "dashi powder",
+                "soy sauce",
+                "mirin",
+                "vegetable oil",
+                "tempura flour",
+                "water"
+            ]
+        },
+        {
+            "dish_name": "Gulai Ayam",
+            "ingredients": [
+                "chicken",
+                "coconut water",
+                "ginger",
+                "turmeric",
+                "cumin",
+                "coriander leaves",
+                "cinnamon",
+                "cardamom",
+                "chips",
+                "pumpkin seed",
+                "tangerine"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "chicken",
+                "coconut milk",
+                "galangal",
+                "ginger",
+                "turmeric",
+                "cumin seeds",
+                "coriander seeds",
+                "cinnamon",
+                "cardamom",
+                "chilies",
+                "salt",
+                "palm sugar",
+                "tamarind paste",
+                "lemongrass",
+                "galangal leaves"
+            ]
+        },
+        {
+            "dish_name": "Coconut Shrimp Curry",
+            "ingredients": [
+                "shrimp",
+                "coconut water",
+                "onion",
+                "garlic",
+                "ginger",
+                "hot sauce",
+                "lime",
+                "brown sugar",
+                "vegetable oil",
+                "black pepper",
+                "thyme"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "shrimp",
+                "coconut milk",
+                "onions",
+                "garlic",
+                "ginger",
+                "curry powder",
+                "fish sauce",
+                "lime juice",
+                "brown sugar",
+                "vegetable oil",
+                "curry leaves",
+                "salt",
+                "black pepper",
+                "Thai basil"
+            ]
+        },
+        {
+            "dish_name": "Prawn Malai Curry",
+            "ingredients": [
+                "onion",
+                "ginger",
+                "garlic",
+                "cumin",
+                "coriander leaves",
+                "cumin",
+                "turmeric",
+                "coconut water",
+                "tomato soup"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "prawns",
+                "onions",
+                "ginger",
+                "garlic",
+                "curry leaves",
+                "cumin seeds",
+                "coriander powder",
+                "cayenne pepper",
+                "turmeric",
+                "garam masala",
+                "coconut milk",
+                "tomato puree"
+            ]
+        },
+        {
+            "dish_name": "Bakkwa",
+            "ingredients": [
+                "pork",
+                "soy sauce",
+                "sugar",
+                "starfruit",
+                "cinnamon",
+                "chinese cabbage",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Pork belly",
+                "soy sauce",
+                "sugar",
+                "star anise",
+                "cinnamon sticks",
+                "cloves",
+                "Chinese five-spice powder",
+                "water"
+            ]
+        },
+        {
+            "dish_name": "Daikon Mochi",
+            "ingredients": [
+                "daikon",
+                "sugar",
+                "water",
+                "miso soup"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Daikon",
+                "glutinous rice",
+                "sugar",
+                "water",
+                "mochi flour"
+            ]
+        },
+        {
+            "dish_name": "Bruschetta",
+            "ingredients": [
+                "bread",
+                "tomato",
+                "basil",
+                "garlic",
+                "olive oil",
+                "peach"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bread",
+                "Tomatoes",
+                "Basil",
+                "Garlic",
+                "Mozzarella",
+                "Olive Oil",
+                "Salt",
+                "Pepper"
+            ]
+        },
+        {
+            "dish_name": "Yorkshire Pudding",
+            "ingredients": [
+                "allspice",
+                "water",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "All-purpose flour",
+                "eggs",
+                "whole milk",
+                "salt",
+                "water",
+                "vegetable oil"
+            ]
+        },
+        {
+            "dish_name": "Stuffed Cabbage Rolls",
+            "ingredients": [
+                "cabbage",
+                "rice",
+                "tomato soup",
+                "onion",
+                "garlic",
+                "black pepper",
+                "sugar",
+                "tomato soup",
+                "allspice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Ground beef",
+                "cabbage",
+                "rice",
+                "tomato paste",
+                "onions",
+                "garlic",
+                "salt",
+                "black pepper",
+                "sugar",
+                "tomato sauce",
+                "all-purpose flour"
+            ]
+        },
+        {
+            "dish_name": "Pasta Puttanesca",
+            "ingredients": [
+                "olive oil",
+                "garlic",
+                "olive oil",
+                "cumin",
+                "tomato",
+                "basil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Olive oil",
+                "garlic",
+                "anchovies",
+                "olives",
+                "capers",
+                "tomatoes",
+                "basil"
+            ]
+        },
+        {
+            "dish_name": "Polenta",
+            "ingredients": [
+                "corn",
+                "water",
+                "butter"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Cornmeal",
+                "water",
+                "salt",
+                "Parmesan cheese",
+                "butter"
+            ]
+        },
+        {
+            "dish_name": "Schnitzel",
+            "ingredients": [
+                "allspice",
+                "butter",
+                "black pepper",
+                "paprika",
+                "lemon",
+                "cumin"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Breaded cutlets",
+                "all-purpose flour",
+                "eggs",
+                "butter",
+                "salt",
+                "black pepper",
+                "paprika",
+                "lemon juice",
+                "capers"
+            ]
+        },
+        {
+            "dish_name": "Risotto",
+            "ingredients": [
+                "vegetable soup",
+                "butter",
+                "onion",
+                "garlic",
+                "olive oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Arborio rice",
+                "vegetable broth",
+                "white wine",
+                "butter",
+                "parmesan cheese",
+                "onions",
+                "garlic",
+                "olive oil"
+            ]
+        },
+        {
+            "dish_name": "Paella",
+            "ingredients": [
+                "chicken",
+                "rice",
+                "tomato",
+                "onion",
+                "garlic",
+                "salsa",
+                "olive oil",
+                "black pepper",
+                "shrimp"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken",
+                "rice",
+                "tomatoes",
+                "onions",
+                "garlic",
+                "saffron",
+                "smoked paprika",
+                "olive oil",
+                "salt",
+                "black pepper",
+                "chorizo",
+                "shrimp"
+            ]
+        },
+        {
+            "dish_name": "Quiche Lorraine",
+            "ingredients": [
+                "cream cheese",
+                "black pepper",
+                "butter",
+                "flaxseed",
+                "grapefruit"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Eggs",
+                "heavy cream",
+                "salt",
+                "black pepper",
+                "butter",
+                "flour",
+                "grated cheese",
+                "ham"
+            ]
+        },
+        {
+            "dish_name": "Apple Strudel",
+            "ingredients": [
+                "flaxseed",
+                "sugar",
+                "cinnamon",
+                "butter",
+                "pastry",
+                "nutmeg"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Flour",
+                "sugar",
+                "apples",
+                "cinnamon",
+                "butter",
+                "eggs",
+                "pastry dough",
+                "nutmeg",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Haggis",
+            "ingredients": [
+                "lamb",
+                "lamb",
+                "onion",
+                "oats",
+                "sugar",
+                "black pepper",
+                "nutmeg",
+                "allspice",
+                "rosemary",
+                "garlic"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Sheep's heart",
+                "lamb's liver",
+                "lamb's lungs",
+                "onions",
+                "oatmeal",
+                "suet",
+                "salt",
+                "black pepper",
+                "nutmeg",
+                "allspice",
+                "rosemary",
+                "garlic"
+            ]
+        },
+        {
+            "dish_name": "Pot-au-Feu",
+            "ingredients": [
+                "beef",
+                "carrot",
+                "onion",
+                "celery",
+                "garlic",
+                "potato",
+                "leek",
+                "bay leaf",
+                "thyme",
+                "beef broth"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef shin",
+                "carrots",
+                "onions",
+                "celery",
+                "garlic",
+                "potatoes",
+                "leeks",
+                "bay leaves",
+                "thyme",
+                "peppercorns",
+                "beef broth"
+            ]
+        },
+        {
+            "dish_name": "Irish Stew",
+            "ingredients": [
+                "lamb",
+                "potato",
+                "carrot",
+                "onion",
+                "garlic",
+                "pear",
+                "beef broth",
+                "allspice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Lamb",
+                "potatoes",
+                "carrots",
+                "onions",
+                "garlic",
+                "pearl barley",
+                "beef broth",
+                "all-purpose flour"
+            ]
+        },
+        {
+            "dish_name": "Fondue",
+            "ingredients": [
+                "cheese",
+                "rice",
+                "bread",
+                "garlic",
+                "lemon",
+                "butter"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Cheese",
+                "wine",
+                "bread",
+                "garlic",
+                "lemon",
+                "butter"
+            ]
+        },
+        {
+            "dish_name": "Goulash",
+            "ingredients": [
+                "beef",
+                "onion",
+                "garlic",
+                "paprika",
+                "tomato",
+                "smoothies",
+                "black pepper",
+                "vegetable oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef",
+                "onions",
+                "garlic",
+                "paprika",
+                "tomatoes",
+                "beans",
+                "salt",
+                "black pepper",
+                "vegetable oil"
+            ]
+        },
+        {
+            "dish_name": "Clam Chowder",
+            "ingredients": [
+                "clams",
+                "potato",
+                "onion",
+                "garlic",
+                "celery",
+                "peach",
+                "butter",
+                "clams",
+                "milk"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Clams",
+                "potatoes",
+                "onions",
+                "garlic",
+                "celery",
+                "salt",
+                "pepper",
+                "butter",
+                "clam juice",
+                "milk"
+            ]
+        },
+        {
+            "dish_name": "Tarte Tatin",
+            "ingredients": [
+                "butter",
+                "sugar",
+                "flaxseed",
+                "milk",
+                "pastry",
+                "cinnamon"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Apples",
+                "butter",
+                "sugar",
+                "flour",
+                "eggs",
+                "milk",
+                "pastry dough",
+                "salt",
+                "cinnamon"
+            ]
+        },
+        {
+            "dish_name": "Moussaka",
+            "ingredients": [
+                "onion",
+                "garlic",
+                "eggplant",
+                "tomato",
+                "tomato soup",
+                "olive oil",
+                "grapefruit",
+                "black pepper",
+                "allspice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "ground beef",
+                "onions",
+                "garlic",
+                "eggplant",
+                "tomatoes",
+                "tomato paste",
+                "olive oil",
+                "breadcrumbs",
+                "grated cheese",
+                "salt",
+                "black pepper",
+                "all-purpose flour"
+            ]
+        },
+        {
+            "dish_name": "Fish and Chips",
+            "ingredients": [
+                "cod",
+                "potato",
+                "flaxseed",
+                "vegetable oil",
+                "peach",
+                "millet",
+                "cream cheese"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Cod",
+                "potatoes",
+                "flour",
+                "eggs",
+                "breadcrumbs",
+                "vegetable oil",
+                "salt",
+                "pepper",
+                "malt vinegar",
+                "beer batter mix"
+            ]
+        },
+        {
+            "dish_name": "Gazpacho",
+            "ingredients": [
+                "tomato",
+                "cucumber",
+                "bell pepper",
+                "onion",
+                "garlic",
+                "bread",
+                "olive oil",
+                "vinegar",
+                "water",
+                "peas"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Tomatoes",
+                "cucumbers",
+                "bell peppers",
+                "onions",
+                "garlic",
+                "bread",
+                "olive oil",
+                "vinegar",
+                "water",
+                "salt",
+                "peppers"
+            ]
+        },
+        {
+            "dish_name": "Tzatziki",
+            "ingredients": [
+                "yogurt",
+                "cucumber",
+                "garlic",
+                "dill",
+                "lemon",
+                "olive oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Yogurt",
+                "cucumber",
+                "garlic",
+                "dill",
+                "lemon juice",
+                "olive oil"
+            ]
+        },
+        {
+            "dish_name": "Panettone",
+            "ingredients": [
+                "flaxseed",
+                "sugar",
+                "butter",
+                "canned goods",
+                "milk"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Yeast",
+                "flour",
+                "sugar",
+                "eggs",
+                "butter",
+                "raisins",
+                "candied fruit",
+                "milk",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Tapenade",
+            "ingredients": [
+                "olive oil",
+                "cumin",
+                "garlic",
+                "olive oil",
+                "thyme",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Olives",
+                "capers",
+                "garlic",
+                "olive oil",
+                "thyme",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Focaccia",
+            "ingredients": [
+                "flaxseed",
+                "water",
+                "olive oil",
+                "sugar",
+                "garlic"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Flour",
+                "yeast",
+                "salt",
+                "water",
+                "olive oil",
+                "sugar",
+                "active dry yeast",
+                "Italian seasoning",
+                "garlic"
+            ]
+        },
+        {
+            "dish_name": "Pasta e Fagioli",
+            "ingredients": [
+                "pork",
+                "smoothies",
+                "onion",
+                "garlic",
+                "carrot",
+                "celery",
+                "tomato",
+                "olive oil",
+                "garlic",
+                "bay leaf",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Pasta",
+                "beans",
+                "onion",
+                "garlic",
+                "carrots",
+                "celery",
+                "tomatoes",
+                "olive oil",
+                "garlic",
+                "bay leaves",
+                "ground beef",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Rosti",
+            "ingredients": [
+                "potato",
+                "butter",
+                "flaxseed",
+                "milk",
+                "peach",
+                "grapefruit"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Potatoes",
+                "butter",
+                "flour",
+                "eggs",
+                "milk",
+                "salt",
+                "pepper",
+                "grated cheese"
+            ]
+        },
+        {
+            "dish_name": "Bourekas",
+            "ingredients": [
+                "flaxseed",
+                "water",
+                "cheese",
+                "onion",
+                "paprika",
+                "garlic"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Flour",
+                "yeast",
+                "salt",
+                "water",
+                "oil",
+                "cheese",
+                "eggs",
+                "onions",
+                "paprika",
+                "garlic",
+                "filo dough"
+            ]
+        },
+        {
+            "dish_name": "Arancini",
+            "ingredients": [
+                "rice",
+                "tomato soup",
+                "olive oil",
+                "peach"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Rice",
+                "tomato sauce",
+                "mozzarella cheese",
+                "ground beef",
+                "parmesan cheese",
+                "eggs",
+                "breadcrumbs",
+                "olive oil",
+                "salt",
+                "pepper"
+            ]
+        },
+        {
+            "dish_name": "Borscht",
+            "ingredients": [
+                "beetroot",
+                "cabbage",
+                "carrot",
+                "onion",
+                "tomato",
+                "vegetable soup",
+                "vinegar",
+                "sugar",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "beet",
+                "cabbage",
+                "carrots",
+                "onion",
+                "tomatoes",
+                "vegetable broth",
+                "vinegar",
+                "sugar",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Crepes",
+            "ingredients": [
+                "allspice",
+                "milk",
+                "sugar",
+                "butter",
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "All-purpose flour",
+                "eggs",
+                "milk",
+                "sugar",
+                "salt",
+                "butter",
+                "water",
+                "vanilla extract"
+            ]
+        },
+        {
+            "dish_name": "Tiramisu",
+            "ingredients": [
+                "milkshake",
+                "brown sugar",
+                "eggplant",
+                "cream cheese"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Ladyfingers",
+                "mascarpone cheese",
+                "espresso",
+                "granulated sugar",
+                "unsweetened cocoa powder",
+                "large eggs",
+                "heavy cream"
+            ]
+        },
+        {
+            "dish_name": "Osso Buco",
+            "ingredients": [
+                "carrot",
+                "celery",
+                "onion",
+                "beef broth",
+                "tomato",
+                "butter",
+                "allspice",
+                "bay leaf",
+                "black pepper",
+                "olive oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Veal shanks",
+                "carrots",
+                "celery",
+                "onions",
+                "white wine",
+                "beef broth",
+                "tomatoes",
+                "butter",
+                "gremolata",
+                "allspice",
+                "bay leaves",
+                "salt",
+                "black pepper",
+                "olive oil"
+            ]
+        },
+        {
+            "dish_name": "Beef Bourguignon",
+            "ingredients": [
+                "beef broth",
+                "onion",
+                "carrot",
+                "celery",
+                "garlic",
+                "bacon",
+                "redcurrant",
+                "beef broth",
+                "tomato soup",
+                "mushroom",
+                "thyme",
+                "bay leaf",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef short ribs",
+                "onions",
+                "carrots",
+                "celery",
+                "garlic",
+                "bacon",
+                "red wine",
+                "beef broth",
+                "tomato paste",
+                "mushrooms",
+                "thyme",
+                "bay leaves",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Lasagna",
+            "ingredients": [
+                "tomato soup",
+                "cream cheese",
+                "onion",
+                "garlic",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Lasagna noodles",
+                "ground beef",
+                "tomato sauce",
+                "ricotta cheese",
+                "mozzarella cheese",
+                "parmesan cheese",
+                "eggs",
+                "onion",
+                "garlic",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Spaghetti Carbonara",
+            "ingredients": [
+                "spelt",
+                "bacon",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Spaghetti",
+                "bacon",
+                "eggs",
+                "parmesan cheese",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Pizza Margherita",
+            "ingredients": [
+                "flaxseed",
+                "tomato soup"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Flour",
+                "yeast",
+                "salt",
+                "tomato sauce",
+                "mozzarella cheese",
+                "fresh basil"
+            ]
+        },
+        {
+            "dish_name": "Stuffed Peppers",
+            "ingredients": [
+                "bell pepper",
+                "rice",
+                "tomato soup",
+                "canned goods",
+                "olive oil",
+                "black pepper",
+                "onion",
+                "garlic"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bell peppers",
+                "ground beef",
+                "cooked rice",
+                "tomato paste",
+                "canned tomatoes",
+                "olive oil",
+                "salt",
+                "black pepper",
+                "onions",
+                "garlic"
+            ]
+        },
+        {
+            "dish_name": "Minestrone",
+            "ingredients": [
+                "canned goods",
+                "vegetable soup",
+                "onion",
+                "garlic",
+                "carrot",
+                "celery",
+                "kidney beans",
+                "canned goods",
+                "zucchini",
+                "tomato",
+                "olive oil",
+                "bay leaf"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Canned tomatoes",
+                "vegetable broth",
+                "onions",
+                "garlic",
+                "carrots",
+                "celery",
+                "kidney beans",
+                "cannellini beans",
+                "zucchini",
+                "tomatoes",
+                "olive oil",
+                "bay leaves"
+            ]
+        },
+        {
+            "dish_name": "Ratatouille",
+            "ingredients": [
+                "eggplant",
+                "zucchini",
+                "bell pepper",
+                "onion",
+                "garlic",
+                "olive oil",
+                "peach",
+                "tomato"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Eggplant",
+                "zucchini",
+                "bell peppers",
+                "onions",
+                "garlic",
+                "olive oil",
+                "salt",
+                "pepper",
+                "tomatoes"
+            ]
+        },
+        {
+            "dish_name": "Baklava",
+            "ingredients": [
+                "walnut",
+                "honey",
+                "sugar",
+                "butter",
+                "cinnamon"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Phyllo dough",
+                "walnuts",
+                "honey",
+                "sugar",
+                "butter",
+                "cinnamon"
+            ]
+        },
+        {
+            "dish_name": "Cheese Souffle",
+            "ingredients": [
+                "butter",
+                "butter",
+                "flaxseed",
+                "black pepper",
+                "allspice",
+                "milk"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Brie",
+                "Gruyère",
+                "Parmesan",
+                "butter",
+                "flour",
+                "eggs",
+                "salt",
+                "black pepper",
+                "all-purpose flour",
+                "milk"
+            ]
+        },
+        {
+            "dish_name": "Chateaubriand",
+            "ingredients": [
+                "beef broth",
+                "black pepper",
+                "butter",
+                "garlic",
+                "thyme",
+                "rosemary"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef tenderloin",
+                "salt",
+                "black pepper",
+                "butter",
+                "garlic",
+                "thyme",
+                "rosemary"
+            ]
+        },
+        {
+            "dish_name": "Calzone",
+            "ingredients": [
+                "flaxseed",
+                "water",
+                "tomato soup",
+                "parsley"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Flour",
+                "yeast",
+                "salt",
+                "water",
+                "mozzarella",
+                "tomato sauce",
+                "ricotta",
+                "parsley"
+            ]
+        },
+        {
+            "dish_name": "Pastitsio",
+            "ingredients": [
+                "onion",
+                "tomato",
+                "pork",
+                "tomato soup",
+                "olive oil",
+                "garlic",
+                "black pepper",
+                "cream cheese",
+                "eggplant",
+                "allspice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Ground beef",
+                "onions",
+                "tomatoes",
+                "pasta",
+                "tomato paste",
+                "olive oil",
+                "garlic",
+                "salt",
+                "black pepper",
+                "ricotta cheese",
+                "parmesan cheese",
+                "egg",
+                "all-purpose flour"
+            ]
+        },
+        {
+            "dish_name": "Veal Marsala",
+            "ingredients": [
+                "butter",
+                "shallot",
+                "garlic",
+                "thyme",
+                "black pepper",
+                "allspice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Veal cutlets",
+                "Marsala wine",
+                "butter",
+                "shallots",
+                "garlic",
+                "thyme",
+                "salt",
+                "black pepper",
+                "all-purpose flour"
+            ]
+        },
+        {
+            "dish_name": "Salmon en Croute",
+            "ingredients": [
+                "salmon",
+                "pumpkin soup",
+                "cream cheese",
+                "dill",
+                "lemon",
+                "black pepper",
+                "butter"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Salmon fillets",
+                "puff pastry",
+                "cream cheese",
+                "dill",
+                "lemon zest",
+                "salt",
+                "black pepper",
+                "butter"
+            ]
+        },
+        {
+            "dish_name": "Blini",
+            "ingredients": [
+                "allspice",
+                "sugar",
+                "bay leaf",
+                "eggplant"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "all-purpose flour",
+                "yeast",
+                "salt",
+                "sugar",
+                "warm milk",
+                "egg",
+                "unsalted butter"
+            ]
+        },
+        {
+            "dish_name": "Beef Wellington",
+            "ingredients": [
+                "beef broth",
+                "mushroom",
+                "pumpkin soup",
+                "black pepper",
+                "allspice",
+                "butter"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef tenderloin",
+                "mushroom duxelles",
+                "puff pastry",
+                "salt",
+                "black pepper",
+                "all-purpose flour",
+                "butter"
+            ]
+        },
+        {
+            "dish_name": "Croque Monsieur",
+            "ingredients": [
+                "bread",
+                "butter",
+                "mustard"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bread",
+                "ham",
+                "Swiss cheese",
+                "butter",
+                "mustard",
+                "eggs"
+            ]
+        },
+        {
+            "dish_name": "Churros",
+            "ingredients": [
+                "allspice",
+                "brown sugar",
+                "eggplant",
+                "vegetable oil",
+                "Brazil nut"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "All-purpose flour",
+                "granulated sugar",
+                "whole milk",
+                "large eggs",
+                "vegetable oil",
+                "baking powder",
+                "ground cinnamon",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Coq au Vin",
+            "ingredients": [
+                "chicken",
+                "onion",
+                "carrot",
+                "celery",
+                "garlic",
+                "redcurrant",
+                "mushroom",
+                "bacon",
+                "tomato soup",
+                "butter",
+                "allspice",
+                "cumin",
+                "black pepper",
+                "thyme"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Chicken thighs",
+                "onions",
+                "carrots",
+                "celery",
+                "garlic",
+                "red wine",
+                "mushrooms",
+                "bacon",
+                "tomato paste",
+                "butter",
+                "all-purpose flour",
+                "cognac",
+                "salt",
+                "black pepper",
+                "thyme"
+            ]
+        },
+        {
+            "dish_name": "Caviar",
+            "ingredients": [
+                "water"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Sturgeon roe",
+                "salt",
+                "water"
+            ]
+        },
+        {
+            "dish_name": "Tuna Nicoise",
+            "ingredients": [
+                "tuna",
+                "green beans",
+                "olive oil",
+                "cumin",
+                "olive oil",
+                "garlic",
+                "lemon",
+                "peach"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Tuna",
+                "boiled potatoes",
+                "green beans",
+                "hard-boiled eggs",
+                "olives",
+                "capers",
+                "olive oil",
+                "garlic",
+                "lemon",
+                "salt",
+                "pepper"
+            ]
+        },
+        {
+            "dish_name": "Steak Tartare",
+            "ingredients": [
+                "beef broth",
+                "eggplant",
+                "cumin",
+                "shallot",
+                "black pepper",
+                "vinegar"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef tenderloin",
+                "egg yolks",
+                "capers",
+                "shallots",
+                "black pepper",
+                "salt",
+                "red wine vinegar"
+            ]
+        },
+        {
+            "dish_name": "Lamb Navarin",
+            "ingredients": [
+                "lamb",
+                "onion",
+                "carrot",
+                "celery",
+                "garlic",
+                "lamb",
+                "tomato soup",
+                "olive oil",
+                "bay leaf",
+                "thyme",
+                "rosemary",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Lamb shanks",
+                "onions",
+                "carrots",
+                "celery",
+                "garlic",
+                "white wine",
+                "lamb stock",
+                "tomato paste",
+                "olive oil",
+                "bay leaves",
+                "thyme",
+                "rosemary",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Escargots de Bourgogne",
+            "ingredients": [
+                "butter",
+                "garlic",
+                "parsley",
+                "shallot",
+                "black pepper",
+                "bread"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "escargots",
+                "butter",
+                "garlic",
+                "parsley",
+                "white wine",
+                "shallots",
+                "salt",
+                "black pepper",
+                "bread"
+            ]
+        },
+        {
+            "dish_name": "Crab Bisque",
+            "ingredients": [
+                "crab",
+                "onion",
+                "garlic",
+                "carrot",
+                "celery",
+                "cumin",
+                "catfish",
+                "cream cheese",
+                "butter",
+                "allspice",
+                "paprika",
+                "cumin",
+                "black pepper",
+                "crab",
+                "shrimp"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Crab",
+                "lobster",
+                "onions",
+                "garlic",
+                "carrots",
+                "celery",
+                "cognac",
+                "fish stock",
+                "heavy cream",
+                "butter",
+                "allspice",
+                "paprika",
+                "cayenne pepper",
+                "salt",
+                "black pepper",
+                "crab meat",
+                "sherry"
+            ]
+        },
+        {
+            "dish_name": "Veal Francese",
+            "ingredients": [
+                "butter",
+                "shallot",
+                "garlic",
+                "allspice",
+                "cream cheese",
+                "parsley",
+                "lemon",
+                "cumin",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Veal cutlets",
+                "butter",
+                "shallots",
+                "garlic",
+                "white wine",
+                "all-purpose flour",
+                "heavy cream",
+                "parsley",
+                "lemon",
+                "capers",
+                "salt",
+                "black pepper"
+            ]
+        },
+        {
+            "dish_name": "Duck a l'Orange",
+            "ingredients": [
+                "duck",
+                "onion",
+                "butter",
+                "garlic",
+                "thyme",
+                "peach",
+                "allspice",
+                "chicken broth"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Duck",
+                "oranges",
+                "butter",
+                "garlic",
+                "thyme",
+                "salt",
+                "pepper",
+                "all-purpose flour",
+                "eggs",
+                "chicken broth"
+            ]
+        },
+        {
+            "dish_name": "Ribollita",
+            "ingredients": [
+                "bread",
+                "vegetable soup",
+                "canned goods",
+                "onion",
+                "garlic",
+                "olive oil",
+                "kale",
+                "chicken broth",
+                "tomato",
+                "peach"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bread",
+                "vegetables",
+                "cannellini beans",
+                "onions",
+                "garlic",
+                "olive oil",
+                "kale",
+                "chicken broth",
+                "tomatoes",
+                "salt",
+                "pepper"
+            ]
+        },
+        {
+            "dish_name": "Lobster Thermidor",
+            "ingredients": [
+                "butter",
+                "garlic",
+                "shallot",
+                "cumin",
+                "cream",
+                "grapefruit",
+                "paprika",
+                "parsley",
+                "black pepper",
+                "lemon"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "lobster tail",
+                "butter",
+                "garlic",
+                "shallots",
+                "cognac",
+                "cream",
+                "grated cheese",
+                "paprika",
+                "parsley",
+                "salt",
+                "black pepper",
+                "lemon"
+            ]
+        },
+        {
+            "dish_name": "Zabaglione",
+            "ingredients": [
+                "eggplant",
+                "sugar",
+                "rice"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Egg yolks",
+                "sugar",
+                "wine",
+                "vanilla"
+            ]
+        },
+        {
+            "dish_name": "Fiorentina Steak",
+            "ingredients": [
+                "beef",
+                "olive oil",
+                "garlic",
+                "black pepper",
+                "rosemary",
+                "redcurrant",
+                "Brazil nut"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef steak",
+                "olive oil",
+                "garlic",
+                "salt",
+                "black pepper",
+                "fresh rosemary",
+                "red wine",
+                "balsamic vinegar"
+            ]
+        },
+        {
+            "dish_name": "Galettes",
+            "ingredients": [
+                "potato",
+                "onion",
+                "flaxseed",
+                "butter"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Potatoes",
+                "onions",
+                "flour",
+                "eggs",
+                "salt",
+                "butter"
+            ]
+        },
+        {
+            "dish_name": "Gougères",
+            "ingredients": [
+                "allspice",
+                "cream",
+                "nutmeg"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Gruyère",
+                "all-purpose flour",
+                "salt",
+                "unsalted butter",
+                "eggs",
+                "cream",
+                "nutmeg"
+            ]
+        },
+        {
+            "dish_name": "Salade Lyonnaise",
+            "ingredients": [
+                "endive",
+                "bacon",
+                "redcurrant"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Endive",
+                "bacon",
+                "red onion",
+                "hard-boiled egg",
+                "Gruyère cheese",
+                "vinaigrette"
+            ]
+        },
+        {
+            "dish_name": "Peking Duck",
+            "ingredients": [
+                "pork",
+                "duck",
+                "scallion",
+                "soy sauce",
+                "soy sauce",
+                "rice",
+                "sugar",
+                "ginger",
+                "garlic",
+                "sesame oil"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Pork",
+                "duck breast",
+                "five-spice powder",
+                "scallions",
+                "hoisin sauce",
+                "soy sauce",
+                "rice vinegar",
+                "sugar",
+                "ginger",
+                "garlic",
+                "sesame oil"
+            ]
+        },
+        {
+            "dish_name": "Langoustine Bouillabaisse",
+            "ingredients": [
+                "fennel",
+                "onion",
+                "garlic",
+                "salsa",
+                "tomato",
+                "catfish",
+                "olive oil",
+                "bay leaf",
+                "thyme",
+                "fennel seed"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Langoustines",
+                "fennel",
+                "onions",
+                "garlic",
+                "saffron",
+                "tomatoes",
+                "rouille",
+                "white wine",
+                "fish stock",
+                "olive oil",
+                "bay leaves",
+                "thyme",
+                "fennel seeds"
+            ]
+        },
+        {
+            "dish_name": "Entrecote Bordelaise",
+            "ingredients": [
+                "beef",
+                "mushroom",
+                "onion",
+                "garlic",
+                "shallot",
+                "redcurrant",
+                "beef broth",
+                "butter",
+                "thyme",
+                "bay leaf",
+                "black pepper"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Beef entrecote",
+                "mushrooms",
+                "onions",
+                "garlic",
+                "shallots",
+                "red wine",
+                "beef broth",
+                "butter",
+                "thyme",
+                "bay leaves",
+                "black peppercorns",
+                "salt"
+            ]
+        },
+        {
+            "dish_name": "Cannelés de Bordeaux",
+            "ingredients": [
+                "bread",
+                "brown sugar",
+                "eggplant",
+                "milk"
+            ],
+            "origin:": "",
+            "ingredients_llm": [
+                "Bread flour",
+                "granulated sugar",
+                "unsalted butter",
+                "large eggs",
+                "milk",
+                "vanilla extract",
+                "salt"
+            ]
+        }
+    ]
+}
