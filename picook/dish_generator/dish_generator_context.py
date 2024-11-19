@@ -84,7 +84,6 @@ class InverseDishGenerator:
         embeddings = self.__get_mean_embeddings(ingredients)
         cosine_similarities = torch.nn.functional.cosine_similarity(embeddings[:, None, :], self.ingredients_embeddings[None, :, :], dim=-1)
         value, idx = torch.max(cosine_similarities, axis=1)
-        print(value, idx)
         value = list(value.cpu().float().numpy())
         idx = list(idx.int().cpu().numpy())
 
