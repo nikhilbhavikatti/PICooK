@@ -163,3 +163,22 @@ class ImageValidator():
             "total_images": total
         }
         return metrics
+
+### Results - Total images : 8000
+## Case 1 top_k = 5
+#   Accuracy : 0.6715
+#   Precision : 0.6036
+#   Recall : 1.0
+#   F1-score : 0.7528
+
+## Case 2 top_k = 3
+#   Accuracy : 0.7842
+#   Precision : 0.6987
+#   Recall : 0.9992
+#   F1-score : 0.8224
+
+## Case 3 top_k = 1
+#   Accuracy : 0.9055
+#   Precision : 0.8465
+#   Recall : 0.9905
+#   F1-score : 0.9129
