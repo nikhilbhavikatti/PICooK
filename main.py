@@ -20,6 +20,10 @@ parser.add_argument('--validate',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Validate images for ingredients and dishes by using classifier.')
+parser.add_argument('--evaluate',
+                    action=argparse.BooleanOptionalAction,
+                    default=False,
+                    help='Evaluate the classifier using a labeled dataset.')
 parser.add_argument('--move_wrong_images',
                     action=argparse.BooleanOptionalAction,
                     default=False,
@@ -91,6 +95,28 @@ if __name__ == '__main__':
         validator = ImageValidator(top_k=args.top_k)
         validator.validate_images("data/ingredients", "data/ingredients/wrong_images", move_wrong_images=args.move_wrong_images)
         validator.validate_images("data/dishes", "data/dishes/wrong_images", move_wrong_images=args.move_wrong_images)
+
+    # Evaluate the classifier
+    if args.evaluate:
+        print("Evaluating the classifier...")
+        validator = ImageValidator(top_k=args.top_k)
+
+        # Paths for evaluation
+        image_directory = "data/ingredients"  # Path to your labeled image dataset
+        labels_json = "data/ingredients_labels.json"  # Path to the JSON file with labels
+        wrong_images_directory = "data/ingredients/wrong_images"  # Directory for wrong images
+
+        # Call evaluate_images and print the results
+        metrics = validator.evaluate_images(
+            image_directory,
+            labels_json,
+            wrong_images_directory,
+            move_wrong_images=args.move_wrong_images
+        )
+
+        print("Evaluation Metrics:")
+        for key, value in metrics.items():
+            print(f"{key}: {value}")
 
     # Generate dishes by randomly sampling ingredients
     if args.dishes:
