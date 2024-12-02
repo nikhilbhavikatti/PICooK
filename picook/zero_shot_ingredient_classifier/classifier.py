@@ -164,7 +164,7 @@ class ImageValidator():
         }
         return metrics
 
-### Results - Total images : 8000
+### Results on Ingredients dataset - Total images : 8000
 ## Case 1 top_k = 5
 #   Accuracy : 0.6715
 #   Precision : 0.6036
@@ -182,3 +182,23 @@ class ImageValidator():
 #   Precision : 0.8465
 #   Recall : 0.9905
 #   F1-score : 0.9129
+
+
+### Results on dish dataset - Total images : 8000
+## Case 1 top_k = 5
+#   Accuracy : 0.6863
+#   Precision : 0.6145
+#   Recall : 0.9997
+#   F1-score : 0.7612
+
+## Case 2 top_k = 3
+#   Accuracy : 0.8120
+#   Precision : 0.7269
+#   Recall : 0.9995
+#   F1-score : 0.8416
+
+## Case 3 top_k = 1
+#   Accuracy : 0.9256
+#   Precision : 0.8744
+#   Recall : 0.9940
+#   F1-score : 0.9303
