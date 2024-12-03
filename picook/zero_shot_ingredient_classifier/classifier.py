@@ -22,6 +22,12 @@ class ImageValidator():
         images = []
         labels = []
         file_names = []
+
+        # create a path for corrupted images and move them there
+        corrupted_path = os.path.join(folder_path, "corrupted_images")
+        if not os.path.exists(corrupted_path):
+            os.mkdir(corrupted_path)
+
         for file in os.listdir(folder_path):
             path = os.path.join(folder_path, file)
             if os.path.isdir(path):
@@ -36,6 +42,7 @@ class ImageValidator():
                 file_names.append(file)
             except:
                 print(f"Could not open image {file}")
+                shutil.move(path, os.path.join(corrupted_path, file))
         return images, labels, file_names
     
     def validate_images(self, path, wrong_path, move_wrong_images=False):

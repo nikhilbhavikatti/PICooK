@@ -60,6 +60,10 @@ parser.add_argument('--dataset',
                     action=argparse.BooleanOptionalAction,
                     default=False,
                     help='Generates the dataset by combining the mapping with the images.')
+parser.add_argument('--split',
+                    action=argparse.BooleanOptionalAction,
+                    default=False,
+                    help='Splits the generated dataset into train and test.')
 
 
 if __name__ == '__main__':
@@ -86,6 +90,7 @@ if __name__ == '__main__':
         print(f"Validating images for ingredients with top_k={args.top_k}")
         validator = ImageValidator(top_k=args.top_k)
         validator.validate_images("data/ingredients", "data/ingredients/wrong_images", move_wrong_images=args.move_wrong_images)
+        validator.validate_images("data/dishes", "data/dishes/wrong_images", move_wrong_images=args.move_wrong_images)
 
     # Generate dishes by randomly sampling ingredients
     if args.dishes:
@@ -125,7 +130,18 @@ if __name__ == '__main__':
 
     # Make the dataset
     if args.dataset:
-        mapping = DishIngredientMapping("data/dish_ingredient_mapping_inverse.json")
+        mapping = DishIngredientMapping("data/dish_ingredient_mapping_inverse_all.json")
         mapping.load()
         generator = DatasetGenerator(mapping.get_mapping(), data_dir="data")
         generator.generate()
+
+        # Also do the train and test split
+        if args.split:
+            generator.split()
+    
+    # Train and test split
+    if args.split:
+        mapping = DishIngredientMapping("data/dish_ingredient_mapping_inverse_all.json")
+        mapping.load()
+        generator = DatasetGenerator(mapping.get_mapping(), data_dir="data")
+        generator.split()

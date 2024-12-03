@@ -195,3 +195,9 @@ debug/
 
 
 *.out
+
+
+# diffusion model checkpoints
+*.bin
+*.pkl
+*.yaml
