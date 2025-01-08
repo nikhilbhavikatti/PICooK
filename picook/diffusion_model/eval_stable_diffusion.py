@@ -109,5 +109,5 @@ if __name__ == "__main__":
     fid_score = compute_fid_score(real_images, generated_images)
     print(f"FID Score: {fid_score}")
 
-# FID score for Prompt with ingredient list : 1.86
-# FID score for Prompt with dish name       : 2.23
+# FID score for Prompt with ingredient list : 2.23
+# FID score for Prompt with dish name       : 1.86
