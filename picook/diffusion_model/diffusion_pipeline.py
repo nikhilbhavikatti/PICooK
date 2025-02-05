@@ -18,7 +18,9 @@ class PicookDiffusionPipeline(DiffusionPipeline):
     def __call__(
         self,
         images: Optional[torch.Tensor] = None,
+        num_images: Optional[torch.Tensor] = None,
         encoder_hidden_states: Optional[torch.Tensor] = None,
+        attention_mask: Optional[torch.Tensor] = None,
         batch_size: int = 1,
         generator: Optional[torch.Generator] = None,
         num_inference_steps: int = 50,
@@ -30,8 +32,12 @@ class PicookDiffusionPipeline(DiffusionPipeline):
         Args:
             images (`torch.Tensor`, *optional*, defaults to `None`):
                 The images to condition the model on. If it is provided, `encoder_hidden_states` must be `None`.
+            num_images (`torch.Tensor`, *optional*, defaults to `None`):
+                Number of images for attention mask
             encoder_hidden_states (`torch.Tensor`, *optional*, defaults to `None`):
                 The hidden states of the encoder model to condition the diffusion model. If it is provided, `images` must be `None`.
+            attention_mask (`torch.Tensor`, *optional*, defaults to `None`):
+                Attention mask for the input sequence of images
             batch_size (`int`, *optional*, defaults to 1):
                 The number of images to generate.
             generator (`torch.Generator`, *optional*):
@@ -63,6 +69,10 @@ class PicookDiffusionPipeline(DiffusionPipeline):
             last_hidden_state = outputs.last_hidden_state
             pooled_output = outputs.pooler_output
             encoder_hidden_states = rearrange(pooled_output, "(b n) c -> b n c", b=batch_size)
+
+            # attention mask for unet
+            bsz = encoder_hidden_states.shape[0]
+            attention_mask = (torch.arange(20, device=encoder_hidden_states.device)[None, :].repeat(bsz, 1) < num_images[:, None]).int()
         
         # Sample gaussian noise to begin loop
         latent = torch.randn(
@@ -81,7 +91,7 @@ class PicookDiffusionPipeline(DiffusionPipeline):
             latent = self.scheduler.scale_model_input(latent, timestep=t)
 
             # 1. predict noise model_output
-            model_output = self.unet(latent, t, encoder_hidden_states=encoder_hidden_states).sample
+            model_output = self.unet(latent, t, encoder_hidden_states=encoder_hidden_states, encoder_attention_mask=attention_mask).sample
 
             # 2. predict previous mean of image x_t-1 and add variance depending on eta
             # eta corresponds to η in paper and should be between [0, 1]
