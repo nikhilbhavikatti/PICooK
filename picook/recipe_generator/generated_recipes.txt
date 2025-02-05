@@ -1,0 +1,74 @@
+213
+['Unknown', 'paprika', 'venison', 'chili pepper', 'parsnip', 'scallion', 'garlic', 'soy sauce', 'deli meats', 'peanut oil', 'chicken']
+['paprika', 'venison', 'chili pepper', 'parsnip', 'scallion', 'garlic', 'soy sauce', 'deli meats', 'peanut oil', 'chicken']
+Pan-Seared Venison with Spicy Parsnip Relish;
+1. Preheat oven to 400°F (200°C).
+2. Peel and chop 2 parsnips into small cubes.
+3. Boil the parsnips in water for 10-12 minutes until tender.
+4. In a pan, heat 2 tablespoons of peanut oil over medium heat.
+5. Add 1 minced garlic and 1 minced chili pepper; sauté for 1 minute.
+6. Add 1 cup of chopped scallions and cook for another minute.
+7. Add 1 cup of boiled parsnips and stir to combine.
+8. Season with 1 teaspoon of paprika and 1 tablespoon of soy sauce.
+9. Meanwhile, season the venison with salt and pepper; pan-fry in 1 tablespoon of peanut oil until browned.
+10. Serve the venison with the spicy parsnip relish.
+
+1328
+['black pepper', 'hot sauce', 'allspice', 'garlic', 'soy sauce', 'shallot', 'chicken', 'butter']
+['black pepper', 'hot sauce', 'allspice', 'garlic', 'soy sauce', 'shallot', 'chicken', 'butter']
+Asian-Style Chicken with Garlic Butter; 
+- 1 chicken breast
+- 2 cloves of garlic, minced
+- 2 tablespoons of butter
+- 1 teaspoon of allspice
+- 1/2 teaspoon of black pepper
+- 1/4 teaspoon of hot sauce
+- 2 tablespoons of soy sauce
+
+1805
+['flaxseed', 'garlic', 'buttermilk', 'lime', 'Unknown', 'chili pepper', 'shrimp', 'cumin', 'Unknown', 'catfish', 'shrimp', 'fennel', 'olive oil']
+['flaxseed', 'garlic', 'buttermilk', 'lime', 'chili pepper', 'shrimp', 'cumin', 'catfish', 'shrimp', 'fennel', 'olive oil']
+Shrimp and Catfish Tacos; 
+- 1 cup catfish, cut into small pieces
+- 1/2 cup shrimp, peeled and deveined
+- 2 cloves garlic, minced
+- 1/2 teaspoon cumin
+- 1/4 teaspoon chili pepper
+- 1/4 teaspoon lime juice
+- 2 tablespoons olive oil
+- 1/2 cup fennel, sliced
+- 2 tablespoons buttermilk
+- Lime wedges for serving
+
+2270
+['cardamom', 'turmeric', 'shallot', 'green peas', 'cilantro', 'turmeric', 'cumin', 'cinnamon', 'chicken', 'ghee', 'black pepper', 'garlic']
+['cardamom', 'turmeric', 'shallot', 'green peas', 'cilantro', 'turmeric', 'cumin', 'cinnamon', 'chicken', 'ghee', 'black pepper', 'garlic']
+Chicken Tikka Masala;
+1. 1 1/2 pounds boneless, skinless chicken breast or thighs, cut into 1 1/2-inch pieces
+2. 2 medium shallots, minced
+3. 2 cloves garlic, minced
+4. 1-inch piece of ginger, grated
+5. 1 teaspoon ground cumin
+6. 1 teaspoon ground coriander
+7. 1/2 teaspoon ground cinnamon
+8. 1/2 teaspoon ground cardamom
+9. 1/2 teaspoon ground turmeric
+10. 1/2 teaspoon black pepper
+11. 1/4 cup ghee
+12. 1 cup chicken broth
+13. 1 cup heavy cream
+14. 1/2 cup chopped cilantro
+15. Salt, to taste
+
+2296
+['olive oil', 'tomato', 'shallot', 'garlic', 'wheat', 'rice', 'lemon', 'bulgur', 'coriander leaves']
+['olive oil', 'tomato', 'shallot', 'garlic', 'wheat', 'rice', 'lemon', 'bulgur', 'coriander leaves']
+Tabbouleh; 
+- 1 cup bulgur
+- 1 cup chopped fresh coriander leaves
+- 1 cup chopped fresh parsley
+- 2 cloves garlic, minced
+- 1/2 cup chopped fresh tomato
+- 1/4 cup olive oil
+- 2 tablespoons lemon juice
+- Salt to taste
