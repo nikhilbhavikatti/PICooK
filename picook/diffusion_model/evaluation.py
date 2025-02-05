@@ -1,11 +1,14 @@
 import torch
-from torchmetrics.image.fid import FrechetInceptionDistance
 from einops import rearrange
 from dataset import IngredientsDishDataset
 from transformers import CLIPImageProcessor, CLIPVisionModel
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import numpy as np
+from functools import partial
+
+from torchmetrics.image.fid import FrechetInceptionDistance
+from torchmetrics.functional.multimodal import clip_score
 
 from diffusion_pipeline import PicookDiffusionPipeline
 
@@ -88,14 +91,21 @@ def plot_images():
 def compute_fid():
     # Run inference for FID score
     fid = FrechetInceptionDistance(feature=64)
+    mean_clip_score = 0
+    good_images = 0
+
+    clip_score_fn = partial(clip_score, model_name_or_path="openai/clip-vit-base-patch16")
+
+    def calculate_clip_score(images, prompts):
+        clip_score = clip_score_fn(torch.from_numpy(images_int).permute(0, 3, 1, 2), prompts).detach()
+        return round(float(clip_score), 4)
+
     generator = torch.Generator(device=device)
     generator = generator.manual_seed(seed)
 
+
     with torch.no_grad():
         for batch in tqdm(test_dataloader):
-            #pipeline = PicookDiffusionPipeline.from_pretrained(model_name, image_encoder=image_model, torch_dtype=weight_dtype).to(device)
-            #pipeline.set_progress_bar_config(disable=False)
-
             batch_size = batch["pixel_values"].shape[0]
 
             inp = batch["preprocessed_ingredient_images"].to(device, dtype=weight_dtype)
@@ -117,18 +127,34 @@ def compute_fid():
 
             # Get real images (denormalize)
             dishes = batch["pixel_values"]
-            dishes = (dishes * 0.5) + 0.5
-            fid.update(dishes.to(torch.uint8), real=True)
+            dishes = ((dishes * 0.5) + 0.5) * 255
+            dishes = dishes.clamp(0, 255).to(torch.uint8)
+            fid.update(dishes, real=True)
 
-            fid.update(torch.tensor(images).to(torch.uint8).permute(0, 3, 1, 2), real=False)         
+            images = (torch.tensor(images) * 255).clamp(0, 255).to(torch.uint8).permute(0, 3, 1, 2)
+            fid.update(images, real=False)
+
+
+            # clip score
+            score = clip_score_fn(images, ["a photo of something to eat like food or a cooked dish"] * batch_size).detach()
+            mean_clip_score += score * batch_size
+            if score > 0.75:
+                good_images += 1 * batch_size
             
-            #del pipeline    
+            # clear memory  
             torch.cuda.empty_cache()
+
 
 
     fid = fid.compute()
     print(f"FID Score:", fid)
 
+    good_fraction = good_images / len(test_dataset)
+    print(f"Good images fraction:", good_fraction)
 
-plot_images()
-#compute_fid()
+    mean_clip_score = mean_clip_score / len(test_dataset)
+    print(f"Mean CLIP Score:", mean_clip_score)
+
+
+#plot_images()
+compute_fid()
