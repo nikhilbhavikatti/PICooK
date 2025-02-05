@@ -164,7 +164,79 @@ class ImageValidator():
         }
         return metrics
 
-### Results on Ingredients dataset - Total images : 8000
+
+class IngredientClassifier():
+    """
+    Classifies images of ingredients using CLIP model.
+    params:
+        ingredient_list: list of ingredients to classify
+        batch_size: batch size for inference
+        confidence: confidence for classification (how confidence the model should be to classify the image). If not confident enough
+                    the image will be classified as "Unknown"
+    """
+    def __init__(self, ingredient_list, batch_size=64, confidence=0.5):
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32",
+                                               device_map=self.device)
+        self.processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32",
+                                                       device_map=self.device)
+        self.ingredient_list = ingredient_list
+        self.batch_size = batch_size
+        self.confidence = confidence
+
+    def __get_images(self, paths):
+        images = []
+
+        for path in paths:
+            try:
+                image = Image.open(path)
+                images.append(image)
+            except:
+                print(f"Could not open image {file}")
+        return images
+    
+    def predict(self, path):
+        images = self.__get_images(path)
+        classes = []
+
+        total = len(images)
+        for i in tqdm(range(0, len(images), self.batch_size)):
+            # prepare input
+            image_batch = images[i:i+self.batch_size]
+
+            unique_labels = list(set(self.ingredient_list))
+            # add some wrong labels to find wrong images
+            unique_labels += ["animal", "person", "house", "car", "landscape", "electronic device", "nothing to eat", "cartoon", "drawing"]
+            num_labels = len(unique_labels)
+            text = [f"a photo of a {label}" for label in unique_labels]
+
+            # inference
+            with torch.no_grad():
+                inputs = self.processor(text=text, images=image_batch, return_tensors="pt", padding=True).to(self.device)
+                outputs = self.model(**inputs)
+                logits_per_image = outputs.logits_per_image
+                probs = logits_per_image.softmax(dim=1).cpu().numpy()
+                pred_classes = np.argmax(probs, axis=1)
+
+                for i, pred in enumerate(pred_classes):
+                    if probs[i, pred] >= self.confidence:
+                        classes.append(unique_labels[pred])
+                    else:
+                        classes.append("Unknown")
+            
+        return classes
+
+
+if __name__ == "__main__":
+    import sys
+    sys.path.append("../../")
+    from picook.config.ingredients_dishes import ingredients
+    ingredient_list = [ingredient for list_of_ingredients in ingredients.values() for ingredient in list_of_ingredients]
+    classifier = IngredientClassifier(ingredient_list, confidence=0.5)
+    classes = classifier.predict(["../../data/ingredients/alcohol_0.jpg", "../../data/ingredients/avocado_1.jpg"])
+    print(classes)
+
+
 ## Case 1 top_k = 5
 #   Accuracy : 0.6715
 #   Precision : 0.6036
