@@ -42,7 +42,7 @@ from peft import LoraConfig
 from peft.utils import get_peft_model_state_dict
 from torchvision import transforms
 from tqdm.auto import tqdm
-from transformers import CLIPTextModel, CLIPTokenizer, AutoProcessor, CLIPVisionModel
+from transformers import CLIPTextModel, CLIPTokenizer, AutoProcessor, CLIPImageProcessor, CLIPVisionModel
 
 import diffusers
 from diffusers import AutoencoderKL, DDPMScheduler, DiffusionPipeline, StableDiffusionPipeline, UNet2DConditionModel
@@ -110,6 +110,7 @@ These are LoRA adaption weights for {base_model}. The weights were fine-tuned on
 def log_validation(
     pipeline,
     encoder_hidden_states,
+    attention_mask,
     batch_size,
     args,
     accelerator,
@@ -135,7 +136,7 @@ def log_validation(
         autocast_ctx = torch.autocast(accelerator.device.type)
 
     with autocast_ctx:
-        images = pipeline(encoder_hidden_states=encoder_hidden_states,
+        images = pipeline(encoder_hidden_states=encoder_hidden_states, attention_mask=attention_mask,
                                 batch_size=batch_size,
                                 num_inference_steps=30,
                                 guidance_scale=1.0,
@@ -531,7 +532,6 @@ def main():
     )
     # @janha custom image part
     image_model = CLIPVisionModel.from_pretrained("openai/clip-vit-base-patch32")
-    image_processor = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
     # freeze parameters of models to save more memory
     unet.requires_grad_(False)
@@ -566,7 +566,6 @@ def main():
     text_encoder.to(accelerator.device, dtype=weight_dtype)
     # @janha custom image part
     image_model.to(accelerator.device, dtype=weight_dtype)
-    #image_processor.to(accelerator.device, dtype=weight_dtype)
 
     # Add adapter and make sure the trainable params are in float32.
     unet.add_adapter(unet_lora_config)
@@ -744,18 +743,10 @@ def main():
     else:
         # @janha Preprocessing our custom dataset.
         print("Loading imgs2img dataset")
-        train_transforms = transforms.Compose(
-            [
-                transforms.Resize(args.resolution, interpolation=transforms.InterpolationMode.BILINEAR),
-                transforms.CenterCrop(args.resolution) if args.center_crop else transforms.RandomCrop(args.resolution),
-                transforms.RandomHorizontalFlip() if args.random_flip else transforms.Lambda(lambda x: x),
-                transforms.ToTensor(),
-                transforms.Normalize([0.5], [0.5]),
-            ]
-        )
 
         with accelerator.main_process_first():
-            train_dataset = IngredientsDishDataset(args.data_dir, train_transforms, image_processor)
+            train_dataset = IngredientsDishDataset(args.data_dir)
+            test_dataset = IngredientsDishDataset(args.data_dir, is_test=True)
 
         def unwrap_model(model):
             model = accelerator.unwrap_model(model)
@@ -766,6 +757,12 @@ def main():
         train_dataloader = torch.utils.data.DataLoader(
             train_dataset,
             shuffle=True,
+            batch_size=args.train_batch_size,
+            num_workers=args.dataloader_num_workers,
+        )
+        test_dataloader = torch.utils.data.DataLoader(
+            test_dataset,
+            shuffle=False,
             batch_size=args.train_batch_size,
             num_workers=args.dataloader_num_workers,
         )
@@ -858,7 +855,7 @@ def main():
         initial=initial_global_step,
         desc="Steps",
         # Only show the progress bar once on each machine.
-        disable=False # we want no progress bar
+        disable=True # we want no progress bar
         #disable=not accelerator.is_local_main_process,
     )
 
@@ -901,6 +898,9 @@ def main():
                     #print(outputs, last_hidden_state.shape, pooled_output.shape)
                     encoder_hidden_states = rearrange(pooled_output, "(b n) c -> b n c", b=bsz)
 
+                    # attention mask for unet
+                    attention_mask = (torch.arange(20, device=encoder_hidden_states.device)[None, :].repeat(bsz, 1) < batch["len"][:, None]).int()
+
                 # Get the target for loss depending on the prediction type
                 if args.prediction_type is not None:
                     # set prediction_type of scheduler if defined
@@ -914,7 +914,11 @@ def main():
                     raise ValueError(f"Unknown prediction type {noise_scheduler.config.prediction_type}")
 
                 # Predict the noise residual and compute loss
-                model_pred = unet(noisy_latents, timesteps, encoder_hidden_states, return_dict=False)[0]
+                # @janha use attention mask 
+                if not args.imgs2img:
+                    model_pred = unet(noisy_latents, timesteps, encoder_hidden_states, return_dict=False)[0]
+                else:
+                    model_pred = unet(noisy_latents, timesteps, encoder_hidden_states, encoder_attention_mask=attention_mask, return_dict=False)[0]
 
                 if args.snr_gamma is None:
                     loss = F.mse_loss(model_pred.float(), target.float(), reduction="mean")
@@ -1011,19 +1015,25 @@ def main():
                     torch_dtype=weight_dtype,
                 )
                 # Get the image embedding for conditioning
-                batch = next(iter(train_dataloader))
+                batch = next(iter(test_dataloader))
                 batch_size = batch["pixel_values"].shape[0]
 
                 if not args.imgs2img:
                     encoder_hidden_states = text_encoder(batch["input_ids"], return_dict=False)[0]
                 else:
-                    inp = rearrange(batch["preprocessed_ingredient_images"], "b n c h w -> (b n) c h w")
+                    inp = batch["preprocessed_ingredient_images"].to(accelerator.device)
+                    inp = rearrange(inp, "b n c h w -> (b n) c h w")
                     outputs = image_model(inp)
                     last_hidden_state = outputs.last_hidden_state
                     pooled_output = outputs.pooler_output
                     encoder_hidden_states = rearrange(pooled_output, "(b n) c -> b n c", b=batch_size)
+
+                    # attention mask for unet
+                    attention_mask = (torch.arange(20)[None, :].repeat(batch_size, 1) < batch["len"][:, None]).int()
+                    attention_mask = attention_mask.to(accelerator.device)
+
                 
-                images = log_validation(pipeline, encoder_hidden_states, batch_size, args, accelerator, epoch)
+                images = log_validation(pipeline, encoder_hidden_states, attention_mask, batch_size, args, accelerator, epoch)
                 
                 del pipeline                
                 torch.cuda.empty_cache()
@@ -1050,6 +1060,7 @@ def main():
                 variant=args.variant,
                 torch_dtype=weight_dtype,
             )
+            pipeline.set_progress_bar_config(disable=True)
 
             # load attention processors
             pipeline.load_lora_weights(args.output_dir)
